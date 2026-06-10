@@ -168,7 +168,7 @@
               "type": "outline",
               "state": {
                 "file": "测试.md",
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -195,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59dd0f0ba614ed5c",
+  "active": "074e10eaf5d9131a",
   "lastOpenFiles": [
     "测试.md",
     "未命名.base",
