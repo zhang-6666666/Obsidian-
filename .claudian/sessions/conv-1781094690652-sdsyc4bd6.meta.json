@@ -4,8 +4,8 @@
   "title": "你好",
   "titleGenerationStatus": "failed",
   "createdAt": 1781094690656,
-  "updatedAt": 1781095779871,
-  "lastResponseAt": 1781095779871,
+  "updatedAt": 1781097170054,
+  "lastResponseAt": 1781097170054,
   "sessionId": "41589dbe-a2ed-4300-932f-00c0e660a7f4",
   "providerState": {
     "providerSessionId": "41589dbe-a2ed-4300-932f-00c0e660a7f4"
@@ -13,11 +13,11 @@
   "currentNote": "测试.md",
   "usage": {
     "model": "opus[1m]",
-    "inputTokens": 248,
+    "inputTokens": 644,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 31296,
+    "cacheReadInputTokens": 31616,
     "contextWindow": 1000000,
-    "contextTokens": 31544,
+    "contextTokens": 32260,
     "percentage": 3
   }
 }
