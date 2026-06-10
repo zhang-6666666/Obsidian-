@@ -175,13 +175,23 @@
               "icon": "lucide-list",
               "title": "测试 的大纲"
             }
+          },
+          {
+            "id": "42d64837976abf14",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 715.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,10 +202,11 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "realclaudian:Open Claudian": false
     }
   },
-  "active": "074e10eaf5d9131a",
+  "active": "42d64837976abf14",
   "lastOpenFiles": [
     "测试.md",
     "未命名.base",
