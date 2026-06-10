@@ -84,8 +84,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -216,10 +215,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f224967da504fb7d",
+  "active": "59dd0f0ba614ed5c",
   "lastOpenFiles": [
-    "测试.md",
     "未命名.base",
+    "测试.md",
     "英语笔记.md",
     "考研/高数",
     "考研/英语",
