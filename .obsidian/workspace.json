@@ -107,8 +107,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -240,7 +239,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f224967da504fb7d",
+  "active": "c8083e134dad2f85",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-06-10 21.54.10.excalidraw.md",
     "Excalidraw/Drawing 2026-06-10 22.00.47.excalidraw.md",
