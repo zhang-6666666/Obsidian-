@@ -185,6 +185,16 @@
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "c90923824a67572c",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
           }
         ],
         "currentTab": 5
@@ -206,7 +216,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "42d64837976abf14",
+  "active": "59dd0f0ba614ed5c",
   "lastOpenFiles": [
     "测试.md",
     "未命名.base",
