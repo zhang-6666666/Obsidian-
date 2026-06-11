@@ -30,21 +30,9 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2026-06-10 22.00.47.excalidraw"
             }
-          },
-          {
-            "id": "7d9a91ed736b63da",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-06-10 21.54.10.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-06-10 21.54.10.excalidraw"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -239,9 +227,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7d9a91ed736b63da",
+  "active": "7bae8a44bae48086",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-06-10 21.54.10.excalidraw.md",
+    "词根词缀.md",
     "Excalidraw/Drawing 2026-06-10 22.00.47.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "英语笔记.md",
