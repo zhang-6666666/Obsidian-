@@ -96,7 +96,13 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "b4db7c4c06d0995d",
+        "type": "tabs",
+        "children": [
           {
             "id": "f224967da504fb7d",
             "type": "leaf",
@@ -107,8 +113,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -242,6 +247,7 @@
   },
   "active": "c8083e134dad2f85",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-06-10 22.00.47.excalidraw.md",
     "Excalidraw/Drawing 2026-06-11 10.56.04.excalidraw.md",
     "Excalidraw/Drawing 2026-06-12 20.25.56.excalidraw.md",
     "英语笔记.md",
@@ -249,7 +255,6 @@
     "测试.md.tmp.10593.4fa6a7d0aa0f",
     "欢迎.md",
     "暂时未被创建的链接.md",
-    "Excalidraw/Drawing 2026-06-10 22.00.47.excalidraw.md",
     "词根词缀.md",
     "测试.md",
     "Ink/Drawing/2026.6.12 - 20.05pm.drawing",
