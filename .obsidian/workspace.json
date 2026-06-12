@@ -11,12 +11,14 @@
             "id": "54b0053fd85b93d3",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-06-11 10.56.04.excalidraw.md"
+                "file": "测试.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-06-11 10.56.04.excalidraw"
+              "icon": "lucide-file",
+              "title": "测试"
             }
           }
         ]
@@ -216,13 +218,13 @@
   },
   "active": "54b0053fd85b93d3",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-06-10 22.00.47.excalidraw.md",
-    "测试.md",
     "Ink/Drawing/2026.6.12 - 20.05pm.drawing",
-    "Ink/Drawing",
-    "Excalidraw/Drawing 2026-06-11 10.56.04.excalidraw.md",
+    "测试.md",
     "Ink/Writing/2026.6.12 - 19.19pm.writing",
     "Ink/Writing/2026.6.12 - 19.02pm.writing",
+    "Excalidraw/Drawing 2026-06-11 10.56.04.excalidraw.md",
+    "Excalidraw/Drawing 2026-06-10 22.00.47.excalidraw.md",
+    "Ink/Drawing",
     "Ink/Writing",
     "Ink",
     "暂时未被创建的链接.md",
