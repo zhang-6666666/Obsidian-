@@ -60,23 +60,9 @@
               "icon": "lucide-file",
               "title": "英语笔记"
             }
-          },
-          {
-            "id": "c3fc0ecc92f6c350",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -271,10 +257,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c3fc0ecc92f6c350",
+  "active": "df9837ac75a0afb6",
   "lastOpenFiles": [
-    "测试.md.tmp.10593.4fa6a7d0aa0f",
     "conflict-files-obsidian-git.md",
+    "测试.md.tmp.10593.4fa6a7d0aa0f",
     "英语笔记.md",
     "欢迎.md",
     "暂时未被创建的链接.md",
@@ -295,7 +281,6 @@
     "Excalidraw",
     "未命名.base",
     "考研/高数",
-    "考研/英语",
     "创建链接.md",
     "未命名 2.md",
     "未命名.canvas"
