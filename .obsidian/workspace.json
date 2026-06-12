@@ -4,35 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ae23d208327daec3",
+        "id": "d1335d9f1cfacd9a",
         "type": "tabs",
         "children": [
           {
-            "id": "59dd0f0ba614ed5c",
+            "id": "54b0053fd85b93d3",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-06-10 22.00.47.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-06-10 22.00.47.excalidraw"
-            }
-          },
-          {
-            "id": "5cb301fd6087452a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-06-10 22.00.47.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-06-10 22.00.47.excalidraw"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,7 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 715.5
+    "width": 390.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,7 +212,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5cb301fd6087452a",
+  "active": "54b0053fd85b93d3",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-06-10 22.00.47.excalidraw.md",
     "Excalidraw/Drawing 2026-06-11 10.56.04.excalidraw.md",
