@@ -75,22 +75,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "b4db7c4c06d0995d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f224967da504fb7d",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -172,37 +156,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2026-06-10 21.54.10.excalidraw.md",
+                "file": "考研/英语/语法/词性概括，动词概述.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Drawing 2026-06-10 21.54.10.excalidraw 的大纲"
-            }
-          },
-          {
-            "id": "42d64837976abf14",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
-            }
-          },
-          {
-            "id": "c90923824a67572c",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {},
-              "icon": "history",
-              "title": "History"
+              "title": "词性概括，动词概述 的大纲"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -224,12 +188,14 @@
   },
   "active": "b0ca986a9d1b6a46",
   "lastOpenFiles": [
-    "考研/英语/语法/主谓一致.md",
-    "未命名.md",
-    "未命名.base",
+    "Excalidraw/Drawing 2026-06-14 00.43.32.excalidraw.md",
     "考研/英语/语法/词性概括，动词概述.md",
-    "英语笔记.md",
+    "Excalidraw",
+    "考研/英语/语法/主谓一致.md",
     "测试.md",
+    "未命名.md",
+    "英语笔记.md",
+    "未命名.base",
     "词根词缀.md",
     "暂时未被创建的链接.md",
     "2026-06-12.md",
@@ -249,7 +215,6 @@
     "Excalidraw/Drawing 2026-06-10 21.54.10.excalidraw.md",
     "Drawing 2026-06-10 21.57.59.excalidraw.md",
     "未命名 1.md",
-    "Excalidraw",
     "考研/高数",
     "创建链接.md",
     "未命名 2.md",
