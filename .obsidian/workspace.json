@@ -11,10 +11,14 @@
             "id": "18af3e59a381a0ab",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "考研/英语/语法/词性概括，动词概述.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "词性概括，动词概述"
             }
           }
         ]
@@ -208,19 +212,21 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "48819b5ebd1b0642",
+  "active": "18af3e59a381a0ab",
   "lastOpenFiles": [
+    "Ink/Writing/2026.6.14 - 1.33am.writing",
+    "Ink/Writing",
+    "Ink",
+    "考研/英语/语法/主谓一致.md",
+    "考研/英语/语法/词性概括，动词概述.md",
     "暂时未被创建的链接.md",
     "英语笔记.md",
     "未命名.md",
     "词根词缀.md",
     "测试.md",
-    "考研/英语/语法/主谓一致.md",
     "2026-06-12.md",
-    "考研/英语/语法/词性概括，动词概述.md",
     "Ink/Drawing/2026.6.14 - 0.47am.drawing",
     "Ink/Drawing",
-    "Ink",
     "Excalidraw/Drawing 2026-06-14 00.43.32.excalidraw.md",
     "Excalidraw",
     "未命名.base",
@@ -234,7 +240,6 @@
     "Ink/Drawing/2026.6.12 - 20.05pm.drawing",
     "Ink/Writing/2026.6.12 - 19.19pm.writing",
     "Ink/Writing/2026.6.12 - 19.02pm.writing",
-    "Ink/Writing",
     "Excalidraw/Drawing 2026-06-10 21.54.10.excalidraw.md",
     "Drawing 2026-06-10 21.57.59.excalidraw.md",
     "未命名 1.md",
