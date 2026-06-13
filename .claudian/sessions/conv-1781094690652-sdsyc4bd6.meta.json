@@ -1,11 +1,11 @@
 {
   "id": "conv-1781094690652-sdsyc4bd6",
   "providerId": "claude",
-  "title": "你好",
-  "titleGenerationStatus": "failed",
+  "title": "Greet in Chinese",
+  "titleGenerationStatus": "success",
   "createdAt": 1781094690656,
-  "updatedAt": 1781369086333,
-  "lastResponseAt": 1781266906432,
+  "updatedAt": 1781369136187,
+  "lastResponseAt": 1781369126648,
   "sessionId": "41589dbe-a2ed-4300-932f-00c0e660a7f4",
   "providerState": {
     "providerSessionId": "41589dbe-a2ed-4300-932f-00c0e660a7f4"
