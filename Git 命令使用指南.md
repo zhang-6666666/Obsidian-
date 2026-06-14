@@ -41,6 +41,7 @@ git --version
 ### 2.2 配置用户名和邮箱
 
 每一次 commit 都会记录是谁提交的，所以先要告诉 Git 你是谁：
+# 
 
 ```bash
 git config --global user.name "你的名字"
