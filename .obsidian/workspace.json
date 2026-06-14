@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git使用方法.md",
+                "file": "Git 命令使用指南.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git使用方法"
+              "title": "Git 命令使用指南"
             }
           }
         ],
@@ -227,11 +227,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "d280a21c67bd0750",
+  "active": "9643a6deec8cbfd9",
   "lastOpenFiles": [
     "Git使用方法.md.tmp.17876.564a44498880",
     "考研/英语/语法/词性概括，动词概述.md",
-    "Git使用方法.md",
+    "Git 命令使用指南.md",
     "考研/英语/语法/主谓一致.md",
     "Ink/Writing/2026.6.14 - 1.40am.writing",
     "Ink/Writing/2026.6.14 - 1.33am.writing",
