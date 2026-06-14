@@ -411,11 +411,11 @@ git reset --hard commit的ID
 | 默认（不加参数） | ✅ 保留 | ❌ 清空 | 修改回到工作区，需要重新 add |
 | `--hard` | ❌ 删除 | ❌ 清空 | **彻底清空**，无法恢复。使用前务必确认！ |
 
-| 写法 | 含义 |
-|------|------|
-| `HEAD~1` | 上一个 commit |
-| `HEAD~3` | 往前数第 3 个 commit |
-| `a1b2c3d` | 指定的 commit ID |
+| 写法        | 含义              |
+| --------- | --------------- |
+| `HEAD~1`  | 上一个 commit      |
+| `HEAD~3`  | 往前数第 3 个 commit |
+| `a1b2c3d` | 指定的 commit ID   |
 
 > 如果你已经把错误 commit 推送到远程了，回退后需要用 `git push --force` 强制推送（**团队协作时慎用！**）。
 
@@ -478,24 +478,180 @@ node_modules/
 
 > 像 `node_modules`、编译产物、系统缓存文件、密码配置文件都不应该提交到仓库，用 `.gitignore` 告诉 Git 忽略它们。
 
-### 9.3 SSH 方式连接 GitHub（免密码）
+### 9.3 连接 GitHub 的两种方式
 
-每次 push 都输密码很麻烦，可以配置 SSH：
+GitHub 有两种验证身份的方式：**HTTPS** 和 **SSH**。下面分别介绍。
+
+---
+
+#### 方式一：SSH（推荐，一次配置永久免密）
+
+#### SSH 是什么？
+
+**SSH**（Secure Shell）是一种**加密通信协议**。简单说：在你电脑和 GitHub 之间建一条**加密隧道**，外人看不到传输内容。用它登录 GitHub 不需要每次输密码。
+
+> 类比：密码登录 = 每次进门输密码；SSH = 带钥匙，到门口自动开。
+
+#### 密钥和公钥怎么配对？
+
+SSH 用的是**非对称加密**——`ssh-keygen` 会同时生成两把钥匙：
+
+```
+ssh-keygen 生成
+     │
+     ├── 私钥（Private Key） → 留在你电脑上，绝不外传 🔒
+     │
+     └── 公钥（Public Key）  → 放到 GitHub 上，随便给人看 🔓
+```
+
+**类比**：你生成一把**锁（公钥）**和一把**钥匙（私钥）**：
+
+| | 存在哪 | 作用 |
+|------|--------|------|
+| 公钥 = 锁 | GitHub 服务器上 | 谁拿着这把锁，就能验证"是钥匙的主人来了" |
+| 私钥 = 钥匙 | 你电脑上 | 用来开锁，证明你的身份 |
+
+**验证过程**（全程私钥不出电脑）：
+
+```
+你 push 代码 → GitHub 说"证明你是谁"
+→ 你电脑用私钥做一次数学签名
+→ GitHub 用你的公钥验证：签名能对上 → 放行 ✅
+```
+
+**核心原理**：用私钥签名的东西，用公钥能验证。反过来，用公钥加密的东西，只有私钥能解开。整个过程私钥**不出你的电脑**。
+
+#### 命令详解
 
 ```bash
-# 1. 生成 SSH 密钥（一路回车即可）
+ssh-keygen -t ed25519 -C "你的邮箱"
+```
+
+| 部分 | 含义 |
+|------|------|
+| `ssh-keygen` | 生成 SSH 密钥对的命令 |
+| `-t ed25519` | **算法类型**，`ed25519` 是目前最新推荐的算法，比老的 RSA 更快更安全 |
+| `-C "邮箱"` | **备注标签**，写在公钥末尾，方便你辨认"这把公钥是哪个设备的" |
+
+> 公钥末尾长这样：`ssh-ed25519 AAAAC3NzaC1...乱码... zhangsan@qq.com`。邮箱只是一个**标签**，不参与身份验证，纯粹方便管理——比如你 GitHub 绑了笔记本、台式机、公司电脑三把公钥，有邮箱一眼就能分清。
+
+#### 可以生成多个密钥
+
+没有数量限制，不同用途各来一个：
+
+```bash
+# 给 GitHub 的
+ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_github -C "个人邮箱"
+
+# 给 Gitee 的
+ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_gitee -C "个人邮箱"
+```
+
+> 好处：万一某把密钥泄露，只影响一个平台。
+
+#### 配置步骤
+
+```bash
+# 1. 生成 SSH 密钥（一路回车即可，可以设置密码也可留空）
 ssh-keygen -t ed25519 -C "你的邮箱"
 
-# 2. 复制公钥
+# 2. 复制公钥内容
 cat ~/.ssh/id_ed25519.pub
+```
 
-# 3. 把输出的内容粘贴到 GitHub → Settings → SSH and GPG keys → New SSH key
+3. 把输出的内容**全部复制**，粘贴到 GitHub：
+   - GitHub 右上角头像 → **Settings**
+   - 左侧菜单 → **SSH and GPG keys**
+   - 点击绿色 **New SSH key** 按钮
+   - Title 随便写（比如"我的笔记本"），Key 粘贴公钥内容
 
-# 4. 测试连接
+```bash
+# 4. 测试是否成功
 ssh -T git@github.com
 ```
 
-之后 clone 时用 SSH 地址（`git@github.com:用户名/仓库名.git`）就行了。
+> 看到 `Hi 你的用户名! You've successfully authenticated...` 就是成功了。
+
+之后 clone 或关联仓库时，用 SSH 地址就行了：
+
+```bash
+git clone git@github.com:用户名/仓库名.git
+git remote add origin git@github.com:用户名/仓库名.git
+```
+
+---
+
+#### 方式二：HTTPS + Personal Access Token（经典方式）
+
+#### HTTPS 是什么？
+
+就是你平时访问网页用的那个协议（`https://`）。用 HTTPS 连接 GitHub 时，每次 push 都需要**用户名 + 密码**验证。
+
+> 但从 2021 年起，GitHub **不再支持**直接输登录密码了，必须用 **Personal Access Token（个人访问令牌）** 代替密码。
+
+#### Personal Access Token（PAT）是什么？
+
+**个人访问令牌**是一串 GitHub 生成的随机字符串，**代替你的登录密码**来用。
+
+> 类比：你的 GitHub 密码是**总钥匙**（一般不给别人）；PAC 是你配的**分钥匙**，只能开特定几扇门（比如只允许 push 代码，不能删仓库），随时可撤销。
+
+#### 如何创建 Token
+
+1. GitHub 右上角头像 → **Settings**
+2. 左侧最下面 → **Developer settings**
+3. 左侧 → **Personal access tokens** → **Tokens (classic)**
+4. 点击 **Generate new token (classic)**
+5. Note 随便写（比如"Obsidian 笔记同步"）
+6. 勾选权限：最少勾 **`repo`**（完整的仓库读写权限）
+7. 点击底部绿色 **Generate token**
+8. ⚠️ **立刻复制保存！这串字符只显示一次，刷新就再也看不到了。**
+
+#### 如何使用
+
+git push 时：
+
+```
+Username: 你的 GitHub 用户名
+Password: 把刚才复制的 Token 粘贴到这里（不是你的登录密码！）
+```
+
+> ⚠️ 终端里输密码时**光标不会动**，这是故意的安全设计，放心粘贴然后回车就行。
+
+#### 不想每次都输？两种方法
+
+**方法 1：Git 帮你记住（推荐）**
+
+```bash
+git config --global credential.helper cache
+```
+
+> 输一次之后，一段时间内（默认 15 分钟）不再问。换成永久存储：
+> ```bash
+> git config --global credential.helper store
+> ```
+> ⚠️ Token 会以**明文**存在硬盘上，仅在你自己的私人电脑上用。
+
+**方法 2：地址里直接写 Token**
+
+```bash
+git remote set-url origin https://你的用户名:TOKEN@github.com/用户名/仓库名.git
+```
+
+> Token 写死在地址里，以后不用输。但任何能看到这个地址的人都能拿到你的 Token，不推荐。
+
+---
+
+#### SSH vs HTTPS 对比
+
+| | SSH | HTTPS + Token |
+|------|------|------|
+| 首次配置 | 生成密钥 + 上传公钥，稍麻烦 | 在网页上点几下创建 Token，简单 |
+| 日常使用 | **敲完命令就走**，无需任何输入 | 用 `credential.helper` 后也只需首次输一次 |
+| 安全性 | 私钥不出电脑，最高 | Token 是一串字符串，泄露风险稍高 |
+| 网络环境 | 部分公司/学校防火墙会封 22 端口 | 走 443 端口（网页端口），几乎不会被封 |
+| 适合谁 | 个人电脑，长期使用 | 临时用、或用不了 SSH 的网络环境 |
+
+> **没特别需求就用 SSH**，配一次永久省心。如果 SSH 死活连不上，切 HTTPS 就行。
 
 ---
 
