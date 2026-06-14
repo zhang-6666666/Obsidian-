@@ -4,19 +4,19 @@
   "title": "Initiate Chinese conversation",
   "titleGenerationStatus": "success",
   "createdAt": 1781369139072,
-  "updatedAt": 1781408468941,
-  "lastResponseAt": 1781408468941,
+  "updatedAt": 1781409059567,
+  "lastResponseAt": 1781409059567,
   "sessionId": "de48afd8-1104-4eb1-a163-48db8cac7e04",
   "providerState": {
     "providerSessionId": "de48afd8-1104-4eb1-a163-48db8cac7e04"
   },
   "usage": {
     "model": "opus[1m]",
-    "inputTokens": 315,
+    "inputTokens": 488,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 41344,
+    "cacheReadInputTokens": 44160,
     "contextWindow": 1000000,
-    "contextTokens": 41659,
+    "contextTokens": 44648,
     "percentage": 4,
     "contextWindowIsAuthoritative": true
   }

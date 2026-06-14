@@ -1,0 +1,16 @@
+# === Obsidian 工作区（每台电脑布局不同） ===
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# === 缓存文件（本地生成，无需同步） ===
+.obsidian/.obsidian-git-log
+.obsidian/cache
+.obsidian/hotkeys.json
+
+# === 系统垃圾文件 ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Obsidian Git 冲突临时文件 ===
+*.md.tmp.*
