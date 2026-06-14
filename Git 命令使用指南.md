@@ -84,11 +84,11 @@ git status
 
 输出解读：
 
-| 状态提示 | 含义 |
-|----------|------|
-| `Untracked files` | 新文件，Git 还没开始跟踪它 |
-| `Changes not staged for commit` | 文件已修改，但还没放入暂存区 |
-| `Changes to be committed` | 文件已在暂存区，等待提交 |
+| 状态提示                            | 含义              |
+| ------------------------------- | --------------- |
+| `Untracked files`               | 新文件，Git 还没开始跟踪它 |
+| `Changes not staged for commit` | 文件已修改，但还没放入暂存区  |
+| `Changes to be committed`       | 文件已在暂存区，等待提交    |
 
 ### 3.3 `git add` — 添加到暂存区
 
