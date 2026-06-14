@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git 常用命令速查.md",
+                "file": "考研/LaTeX/LaTeX 数学公式指南.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git 常用命令速查"
+              "title": "LaTeX 数学公式指南"
             }
           }
         ],
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git 常用命令速查.md",
+                "file": "考研/LaTeX/LaTeX 数学公式指南.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Git 常用命令速查 的大纲"
+              "title": "LaTeX 数学公式指南 的大纲"
             }
           },
           {
@@ -243,8 +243,14 @@
   },
   "active": "765e506dab1ad102",
   "lastOpenFiles": [
-    "Git 命令使用指南.md",
+    "考研/LaTeX/LaTeX 符号速查表.md",
+    "考研/高数/多元函数微分学.md",
+    "考研/LaTeX/LaTeX 数学公式指南.md",
+    "考研/LaTeX/LaTeX 数学公式指南.md.tmp.41344.3531b16d316a",
+    "考研/LaTeX",
     "Git 常用命令速查.md",
+    "考研/高数",
+    "Git 命令使用指南.md",
     "Git 命令使用指南.md.tmp.35140.8c46a3776b77",
     "Git 常用命令速查.md.tmp.35140.f55afa83da93",
     "Git 命令使用指南.md.tmp.35140.e48cded7b830",
@@ -254,14 +260,11 @@
     "Ink/Writing/2026.6.14 - 1.40am.writing",
     "Ink/Writing/2026.6.14 - 1.33am.writing",
     "Ink/Writing",
-    "Ink",
     "暂时未被创建的链接.md",
     "英语笔记.md",
     "词根词缀.md",
     "测试.md",
     "2026-06-12.md",
-    "Ink/Drawing/2026.6.14 - 0.47am.drawing",
-    "Ink/Drawing",
     "Excalidraw/Drawing 2026-06-14 00.43.32.excalidraw.md",
     "欢迎.md",
     "Excalidraw/Drawing 2026-06-11 10.56.04.excalidraw.md",
