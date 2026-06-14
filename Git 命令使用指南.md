@@ -1,6 +1,6 @@
 
 > 面向零基础小白，每个命令都配有解释和名词说明。
-
+[[Git 常用命令速查]]
 ---
 
 ## 一、前置概念：Git 到底是什么？
@@ -423,27 +423,27 @@ git reset --hard commit的ID
 
 ## 八、常用场景速查表
 
-| 我想做什么         | 命令                                  |
-| ------------- | ----------------------------------- |
-| 初始化本地仓库       | `git init`                          |
-| 看看现在什么状态      | `git status`                        |
-| 把文件加入暂存区      | `git add 文件名` 或 `git add .`         |
-| 提交存档          | `git commit -m "描述"`                |
-| 查看提交历史        | `git log --oneline`                 |
-| 创建并切换到新分支     | `git switch -c 分支名`                 |
-| 切换到已有分支       | `git switch 分支名`                    |
-| 查看所有分支        | `git branch`                        |
-| 合并分支          | `git switch main` → `git merge 分支名` |
-| 关联远程仓库        | `git remote add origin 地址`          |
-| 推送到远程         | `git push -u origin main`           |
-| 拉取远程更新        | `git pull`                          |
-| 克隆远程仓库        | `git clone 地址`                      |
-| 撤销文件修改        | `git restore 文件名`                   |
-| 取消 git add    | `git restore --staged 文件名`          |
-| 回退到上一个版本      | `git reset HEAD~1`                  |
-| 回退并彻底删除修改     | `git reset --hard HEAD~1`           |
-| 查看两个版本的差异     | `git diff`                          |
-| 暂存当前工作（临时切分支） | `git stash` → `git stash pop`       |
+| 我想做什么         | 命令                                  |     |
+| ------------- | ----------------------------------- | --- |
+| 初始化本地仓库       | `git init`                          |     |
+| 看看现在什么状态      | `git status`                        |     |
+| 把文件加入暂存区      | `git add 文件名` 或 `git add .`         |     |
+| 提交存档          | `git commit -m "描述"`                |     |
+| 查看提交历史        | `git log --oneline`                 |     |
+| 创建并切换到新分支     | `git switch -c 分支名`                 |     |
+| 切换到已有分支       | `git switch 分支名`                    |     |
+| 查看所有分支        | `git branch`                        |     |
+| 合并分支          | `git switch main` → `git merge 分支名` |     |
+| 关联远程仓库        | `git remote add origin 地址`          |     |
+| 推送到远程         | `git push -u origin main`           |     |
+| 拉取远程更新        | `git pull`                          |     |
+| 克隆远程仓库        | `git clone 地址`                      |     |
+| 撤销文件修改        | `git restore 文件名`                   |     |
+| 取消 git add    | `git restore --staged 文件名`          |     |
+| 回退到上一个版本      | `git reset HEAD~1`                  |     |
+| 回退并彻底删除修改     | `git reset --hard HEAD~1`           |     |
+| 查看两个版本的差异     | `git diff`                          |     |
+| 暂存当前工作（临时切分支） | `git stash` → `git stash pop`       |     |
 
 ---
 
@@ -657,13 +657,13 @@ git remote set-url origin https://你的用户名:TOKEN@github.com/用户名/仓
 
 ## 十、小结
 
-| 阶段 | 核心命令 |
-|------|---------|
-| 配置 | `git config` |
-| 本地开发 | `git init` → `git add` → `git commit` |
-| 分支协作 | `git switch -c` → `git merge` |
-| 远程同步 | `git clone` → `git pull` → `git push` |
-| 救火 | `git status` → `git restore` → `git reset` |
+| 阶段   | 核心命令                                       |
+| ---- | ------------------------------------------ |
+| 配置   | `git config`                               |
+| 本地开发 | `git init` → `git add` → `git commit`      |
+| 分支协作 | `git switch -c` → `git merge`              |
+| 远程同步 | `git clone` → `git pull` → `git push`      |
+| 救火   | `git status` → `git restore` → `git reset` |
 
 记住一个原则：**不知道现在什么情况时，先敲 `git status`。**
 
