@@ -25,7 +25,7 @@ LaTeX 是一套数学公式排版语言，用简单的文本命令就能写出�
 **例子**：
 - 行内：`已知 $f(x) = x^2 + 1$，求 $f'(x)$` → 已知 $f(x) = x^2 + 1$，求 $f'(x)$
 - 块级：`$$\int_0^1 x^2 dx = \frac{1}{3}$$` 会居中独立显示
-`$$\int_0^1 x^2 dx = \frac{1}{3}$$
+$$\int_0^1 x^2 dx = \frac{1}{3}$$
 ### 为什么考研要学？
 
 考研数学笔记里要写大量公式——导数、积分、极限、矩阵。手写截图的笔记不好搜索、不好修改。用 LaTeX 写的公式纯文本可搜索，和笔记融为一体。
@@ -334,21 +334,24 @@ $$
 $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 $$\frac{d}{dx} \left( x^n \right) = n x^{n-1}$$
 ```
-
+$$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+$$\frac{d}{dx} \left( x^n \right) = n x^{n-1}$$
 ### 偏导数
 
 ```latex
 $$\frac{\partial z}{\partial x} \quad \frac{\partial^2 z}{\partial x \partial y}$$
 $$f_x = \frac{\partial f}{\partial x}$$
 ```
-
+$$\frac{\partial z}{\partial x} \quad \frac{\partial^2 z}{\partial x \partial y}$$
+$$f_x = \frac{\partial f}{\partial x}$$
 ### 极限
 
 ```latex
 $$\lim_{x \to \infty} \left( 1 + \frac{1}{x} \right)^x = e$$
 $$\lim_{x \to 0} \frac{\sin x}{x} = 1$$
 ```
-
+$$\lim_{x \to \infty} \left( 1 + \frac{1}{x} \right)^x = e$$
+$$\lim_{x \to 0} \frac{\sin x}{x} = 1$$
 ### 积分
 
 ```latex
@@ -356,19 +359,21 @@ $$\int_a^b f(x)\, dx = F(b) - F(a)$$
 $$\iint_D f(x,y)\, dx\, dy$$
 $$\int_{-\infty}^{+\infty} e^{-x^2}\, dx = \sqrt{\pi}$$
 ```
-
+$$\int_a^b f(x)\, dx = F(b) - F(a)$$
+$$\iint_D f(x,y)\, dx\, dy$$
+$$\int_{-\infty}^{+\infty} e^{-x^2}\, dx = \sqrt{\pi}$$
 ### 麦克劳林展开
 
 ```latex
 $$f(x) = f(0) + f'(0)x + \frac{f''(0)}{2!} x^2 + \cdots + \frac{f^{(n)}(0)}{n!} x^n + o(x^n)$$
 ```
-
+$$f(x) = f(0) + f'(0)x + \frac{f''(0)}{2!} x^2 + \cdots + \frac{f^{(n)}(0)}{n!} x^n + o(x^n)$$
 ### 偏导数 + 全微分
 
 ```latex
 $$dz = \frac{\partial z}{\partial x} dx + \frac{\partial z}{\partial y} dy$$
 ```
-
+$$dz = \frac{\partial z}{\partial x} dx + \frac{\partial z}{\partial y} dy$$
 ---
 
 ## 速查入口
