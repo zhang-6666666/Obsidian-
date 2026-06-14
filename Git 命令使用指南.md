@@ -279,7 +279,7 @@ git branch -d feature-login
 
 ---
 
-## ==六、远程仓库（GitHub / Gitee）
+## 六、远程仓库（GitHub / Gitee）
 
 ### 6.1 `git remote add` — 关联远程仓库
 
@@ -289,11 +289,11 @@ git branch -d feature-login
 git remote add origin 你的远程仓库地址
 ```
 
-| 参数 | 含义 |
-|------|------|
-| `origin` | 远程仓库的**别名**，习惯上叫 origin（你也可以取别的名字） |
-| 仓库地址 | 形如 `https://github.com/用户名/仓库名.git` 或 `git@github.com:用户名/仓库名.git`（SSH） |
-
+| 参数       | 含义                                                                      |
+| -------- | ----------------------------------------------------------------------- |
+| `origin` | 远程仓库的**别名**，习惯上叫 origin（你也可以取别的名字）                                      |
+| 仓库地址     | 形如 `https://github.com/用户名/仓库名.git` 或 `git@github.com:用户名/仓库名.git`（SSH） |
+< 相当于用origin来代替一长串的仓库地址
 查看已关联的远程仓库：
 
 ```bash
