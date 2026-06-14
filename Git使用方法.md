@@ -3,5 +3,6 @@
 ```bash
 git init
 ```
-2. chaung - [x{}
+2. chaung 
+3. 
 
