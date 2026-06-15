@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "考研/高数/多元函数微分学.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2026-06-10 21.54.10.excalidraw.md",
+                "file": "考研/高数/多元函数微分学.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Drawing 2026-06-10 21.54.10.excalidraw 的大纲"
+              "title": "多元函数微分学 的大纲"
             }
           },
           {
@@ -229,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -249,8 +249,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "df9837ac75a0afb6",
+  "active": "074e10eaf5d9131a",
   "lastOpenFiles": [
+    "考研/高数/多元函数微分学.md.tmp.136077.1ebbc16d96e7",
     "Git/Git 常用命令速查.md",
     "Git/Git 命令使用指南.md",
     "Git",
@@ -286,7 +287,6 @@
     "未命名.md",
     "未命名 1.md",
     "创建链接.md",
-    "未命名 2.md",
     "未命名.canvas"
   ]
 }
