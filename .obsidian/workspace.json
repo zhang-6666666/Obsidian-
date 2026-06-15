@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研/高数/多元函数微分学.md",
+                "file": "Clippings/clawd-mochi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "多元函数微分学"
+              "title": "clawd-mochi"
             }
           }
         ]
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研/高数/多元函数微分学.md",
+                "file": "Clippings/clawd-mochi.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "多元函数微分学 的大纲"
+              "title": "clawd-mochi 的大纲"
             }
           },
           {
@@ -192,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -214,9 +214,12 @@
   },
   "active": "106b49f1c3f34b74",
   "lastOpenFiles": [
+    "Clippings/clawd-mochiREADME.md at main.md.tmp.17812.3bddf183e0f7",
+    "考研/高数/多元函数微分学.md",
+    "Clippings/clawd-mochi.md",
+    "Clippings",
     "考研/LaTeX/LaTeX 数学公式指南.md",
     "考研/LaTeX/LaTeX 符号速查表.md",
-    "考研/高数/多元函数微分学.md",
     "Git 命令使用指南.md",
     "考研/LaTeX/LaTeX 数学公式指南.md.tmp.41344.3531b16d316a",
     "考研/LaTeX",
@@ -230,7 +233,6 @@
     "考研/英语/语法/主谓一致.md",
     "Ink/Writing/2026.6.14 - 1.40am.writing",
     "Ink/Writing/2026.6.14 - 1.33am.writing",
-    "Ink/Writing",
     "暂时未被创建的链接.md",
     "英语笔记.md",
     "词根词缀.md",
