@@ -11,10 +11,14 @@
             "id": "106b49f1c3f34b74",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/clawd-mochi.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "clawd-mochi"
             }
           }
         ]
@@ -154,12 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Clippings/clawd-mochi.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "clawd-mochi 的大纲"
             }
           },
           {
@@ -187,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -209,6 +214,8 @@
   },
   "active": "106b49f1c3f34b74",
   "lastOpenFiles": [
+    "2026-06-15.md",
+    "Git",
     "Clippings/clawd-mochi.md",
     "conflict-files-obsidian-git.md",
     "Ink/Writing/2026.6.15 - 0.12am.writing",
@@ -217,15 +224,14 @@
     "Clippings",
     "考研/LaTeX/LaTeX 数学公式指南.md",
     "考研/LaTeX/LaTeX 符号速查表.md",
-    "Git 命令使用指南.md",
+    "Git/Git 命令使用指南.md",
     "考研/LaTeX/LaTeX 数学公式指南.md.tmp.41344.3531b16d316a",
     "考研/LaTeX",
-    "Git 常用命令速查.md",
+    "Git/Git 常用命令速查.md",
     "考研/高数",
     "Git 命令使用指南.md.tmp.35140.8c46a3776b77",
     "Git 常用命令速查.md.tmp.35140.f55afa83da93",
     "Git 命令使用指南.md.tmp.35140.e48cded7b830",
-    "Git使用方法.md.tmp.17876.564a44498880",
     "考研/英语/语法/词性概括，动词概述.md",
     "考研/英语/语法/主谓一致.md",
     "暂时未被创建的链接.md",
