@@ -233,7 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 508.5
+    "width": 332.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,15 +249,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "074e10eaf5d9131a",
+  "active": "df9837ac75a0afb6",
   "lastOpenFiles": [
+    "Clippings/clawd-mochi.md",
+    "考研/高数/多元函数微分学.md",
     "考研/高数/多元函数微分学.md.tmp.136077.1ebbc16d96e7",
     "Git/Git 常用命令速查.md",
     "Git/Git 命令使用指南.md",
     "Git",
-    "Clippings/clawd-mochi.md",
     "Clippings",
-    "考研/高数/多元函数微分学.md",
     "考研/英语/语法/词性概括，动词概述.md",
     "考研/英语/语法/主谓一致.md",
     "考研/英语/语法",
@@ -278,7 +278,6 @@
     "Excalidraw/Drawing 2026-06-12 20.25.56.excalidraw.md",
     "英语笔记.md",
     "conflict-files-obsidian-git.md",
-    "测试.md.tmp.10593.4fa6a7d0aa0f",
     "暂时未被创建的链接.md",
     "词根词缀.md",
     "测试.md",
