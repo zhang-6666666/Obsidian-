@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研/高数/多元函数微分学.md",
+                "file": "考研/高数/椭圆.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "多元函数微分学"
+              "title": "椭圆"
             }
           }
         ]
@@ -213,8 +213,8 @@
   },
   "active": "e769083616311ce1",
   "lastOpenFiles": [
-    "考研/高数/椭圆.md",
     "考研/高数/多元函数微分学.md",
+    "考研/高数/椭圆.md",
     "conflict-files-obsidian-git.md",
     "Clippings/clawd-mochi.md",
     "2026-06-15.md",
