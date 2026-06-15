@@ -53,8 +53,6 @@ $$x^10$$    % 错误：只有 1 是上标，后面 0 变回正常字
 $$x^{10}$$  % 正确：整个 10 都是上标
 ```
 
-$$
-
 ### 注释
 
 `%` 后面的内容不会被渲染，用来写备注。
@@ -83,10 +81,10 @@ $$\int_{0}^{1}$$         % 积分的上下限
 
 ### 分数
 
-| 语法 | 效果 |
-|------|------|
-| `\frac{分子}{分母}` | $$\frac{a}{b}$$ |
-| 嵌套分数 | `\frac{\frac{a}{b}}{c}` | $$\frac{\frac{a}{b}}{c}$$ |
+| 语法              | 效果                      |                           |
+| --------------- | ----------------------- | ------------------------- |
+| `\frac{分子}{分母}` | $$\frac{a}{b}$$         |                           |
+| 嵌套分数            | `\frac{\frac{a}{b}}{c}` | $$\frac{\frac{a}{b}}{c}$$ |
 
 ```latex
 $$\frac{dy}{dx}$$                  % 导数
@@ -174,15 +172,15 @@ $$\lim_{x \to 0} \frac{\sin x}{x} = 1$$                      % 极限
 
 ## 模块六：关系符号
 
-| 语法 | 效果 | 语法 | 效果 |
-|------|:---:|------|:---:|
-| `=` | $=$ | `\neq` | $\neq$ |
-| `<` `>` | $<$ $>$ | `\leq` `\geq` | $\leq$ $\geq$ |
-| `\approx` | $\approx$ | `\equiv` | $\equiv$ |
-| `\sim` | $\sim$ | `\propto` | $\propto$ |
-| `\ll` `\gg` | $\ll$ $\gg$ | `\Rightarrow` | $\Rightarrow$ |
-| `\to` | $\to$ | `\Leftrightarrow` | $\Leftrightarrow$ |
-| `\because` | $\because$ | `\therefore` | $\therefore$ |
+| 语法          |     效果      | 语法                |        效果         |
+| ----------- | :---------: | ----------------- | :---------------: |
+| `=`         |     $=$     | `\neq`            |      $\neq$       |
+| `<` `>`     |   $<$ $>$   | `\leq` `\geq`     |   $\leq$ $\geq$   |
+| `\approx`   |  $\approx$  | `\equiv`          |     $\equiv$      |
+| `\sim`      |   $\sim$    | `\propto`         |     $\propto$     |
+| `\ll` `\gg` | $\ll$ $\gg$ | `\Rightarrow`     |   $\Rightarrow$   |
+| `\to`       |    $\to$    | `\Leftrightarrow` | $\Leftrightarrow$ |
+| `\because`  | $\because$  | `\therefore`      |   $\therefore$    |
 
 ---
 
