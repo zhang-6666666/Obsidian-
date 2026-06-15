@@ -1,6 +1,10 @@
 {
   "accentColor": "#1a7bb7",
   "baseFontSizeAction": true,
+<<<<<<< HEAD
   "baseFontSize": 15,
+=======
+  "baseFontSize": 24,
+>>>>>>> origin/master
   "theme": "obsidian"
 }

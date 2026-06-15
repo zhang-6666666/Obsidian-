@@ -1,11 +1,11 @@
 {
   "id": "conv-1781426754679-keavlyq2w",
   "providerId": "claude",
-  "title": "Create LaTeX math formula guide for Obsidian",
+  "title": "Debug MATLAB figure generation issue",
   "titleGenerationStatus": "success",
   "createdAt": 1781426754679,
-  "updatedAt": 1781499385514,
-  "lastResponseAt": 1781499385514,
+  "updatedAt": 1781506882527,
+  "lastResponseAt": 1781506876377,
   "sessionId": "d0868bbf-dd7c-47d5-8148-3250d69630ea",
   "providerState": {
     "providerSessionId": "d0868bbf-dd7c-47d5-8148-3250d69630ea"
