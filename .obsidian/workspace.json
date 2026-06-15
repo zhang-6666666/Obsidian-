@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "考研/高数/二重积分.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -213,12 +213,14 @@
   },
   "active": "e769083616311ce1",
   "lastOpenFiles": [
-    "考研/高数/多元函数微分学.md",
+    "2026-06-15.md",
+    "未命名.base",
+    "未命名.md",
     "考研/高数/二重积分.md",
+    "考研/高数/多元函数微分学.md",
     "考研/高数/椭圆.md",
     "conflict-files-obsidian-git.md",
     "Clippings/clawd-mochi.md",
-    "2026-06-15.md",
     "Git",
     "Ink/Writing/2026.6.15 - 0.12am.writing",
     "Clippings/clawd-mochiREADME.md at main.md.tmp.17812.3bddf183e0f7",
@@ -232,7 +234,6 @@
     "考研/高数",
     "Git 命令使用指南.md.tmp.35140.8c46a3776b77",
     "Git 常用命令速查.md.tmp.35140.f55afa83da93",
-    "Git 命令使用指南.md.tmp.35140.e48cded7b830",
     "考研/英语/语法/词性概括，动词概述.md",
     "考研/英语/语法/主谓一致.md",
     "暂时未被创建的链接.md",
@@ -247,8 +248,6 @@
     "Excalidraw/Drawing 2026-06-12 20.29.56.excalidraw.md",
     "Excalidraw/Drawing 2026-06-12 20.25.56.excalidraw.md",
     "Excalidraw/Drawing 2026-06-10 21.54.10.excalidraw.md",
-    "Drawing 2026-06-10 21.57.59.excalidraw.md",
-    "未命名 1.md",
     "未命名.canvas"
   ]
 }
