@@ -4,19 +4,19 @@
   "title": "Create LaTeX math formula guide for Obsidian",
   "titleGenerationStatus": "success",
   "createdAt": 1781426754679,
-  "updatedAt": 1781499296247,
-  "lastResponseAt": 1781499296247,
+  "updatedAt": 1781499385514,
+  "lastResponseAt": 1781499385514,
   "sessionId": "d0868bbf-dd7c-47d5-8148-3250d69630ea",
   "providerState": {
     "providerSessionId": "d0868bbf-dd7c-47d5-8148-3250d69630ea"
   },
   "usage": {
     "model": "opus[1m]",
-    "inputTokens": 1254,
+    "inputTokens": 4650,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 56960,
+    "cacheReadInputTokens": 53632,
     "contextWindow": 1000000,
-    "contextTokens": 58214,
+    "contextTokens": 58282,
     "percentage": 6,
     "contextWindowIsAuthoritative": true
   }
