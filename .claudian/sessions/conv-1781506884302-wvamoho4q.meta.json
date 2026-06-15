@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781506884302-wvamoho4q",
+  "providerId": "claude",
+  "title": "Diagnose image generation failure",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781506884302,
+  "updatedAt": 1781507122927,
+  "lastResponseAt": 1781507122927,
+  "sessionId": "78cf7723-9bbd-4bf3-b3ba-88e02fb99c8a",
+  "providerState": {
+    "providerSessionId": "78cf7723-9bbd-4bf3-b3ba-88e02fb99c8a"
+  },
+  "currentNote": "考研/高数/多元函数微分学.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 619,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 39040,
+    "contextWindow": 1000000,
+    "contextTokens": 39659,
+    "percentage": 4
+  }
+}
