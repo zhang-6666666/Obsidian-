@@ -4,24 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "04d865905d293598",
+        "id": "d1335d9f1cfacd9a",
         "type": "tabs",
         "children": [
           {
-            "id": "106b49f1c3f34b74",
+            "id": "54b0053fd85b93d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/clawd-mochi.md",
+                "file": "测试.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "测试"
+            }
+          },
+          {
+            "id": "5386f50f325355cf",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "词根词缀.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "词根词缀"
+            }
+          },
+          {
+            "id": "df9837ac75a0afb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "考研/高数/多元函数微分学.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "clawd-mochi"
+              "title": "多元函数微分学"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,7 +92,7 @@
             }
           },
           {
-            "id": "47ccbc2af0017226",
+            "id": "ab3ebdaefa67cfb4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,11 +104,11 @@
         ]
       },
       {
-        "id": "d6a084b8d3f3956b",
+        "id": "b4db7c4c06d0995d",
         "type": "tabs",
         "children": [
           {
-            "id": "48819b5ebd1b0642",
+            "id": "f224967da504fb7d",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -153,32 +180,7 @@
             }
           },
           {
-            "id": "074e10eaf5d9131a",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Clippings/clawd-mochi.md",
-                "followCursor": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "clawd-mochi 的大纲"
-            }
-          },
-          {
-            "id": "d280a21c67bd0750",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
-            }
-          },
-          {
-            "id": "66828d426de16b51",
+            "id": "4faaab2fb19c86ba",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -190,13 +192,48 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
+          },
+          {
+            "id": "074e10eaf5d9131a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-06-10 21.54.10.excalidraw.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Drawing 2026-06-10 21.54.10.excalidraw 的大纲"
+            }
+          },
+          {
+            "id": "42d64837976abf14",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "c90923824a67572c",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 509.5
+    "width": 508.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,46 +244,46 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-git:Open Git source control": false,
-      "realclaudian:Open Claudian": false
+      "realclaudian:Open Claudian": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "106b49f1c3f34b74",
+  "active": "df9837ac75a0afb6",
   "lastOpenFiles": [
-    "2026-06-15.md",
+    "Git/Git 常用命令速查.md",
+    "Git/Git 命令使用指南.md",
     "Git",
     "Clippings/clawd-mochi.md",
-    "conflict-files-obsidian-git.md",
-    "Ink/Writing/2026.6.15 - 0.12am.writing",
-    "Clippings/clawd-mochiREADME.md at main.md.tmp.17812.3bddf183e0f7",
-    "考研/高数/多元函数微分学.md",
     "Clippings",
-    "考研/LaTeX/LaTeX 数学公式指南.md",
-    "考研/LaTeX/LaTeX 符号速查表.md",
-    "Git/Git 命令使用指南.md",
-    "考研/LaTeX/LaTeX 数学公式指南.md.tmp.41344.3531b16d316a",
-    "考研/LaTeX",
-    "Git/Git 常用命令速查.md",
-    "考研/高数",
-    "Git 命令使用指南.md.tmp.35140.8c46a3776b77",
-    "Git 常用命令速查.md.tmp.35140.f55afa83da93",
-    "Git 命令使用指南.md.tmp.35140.e48cded7b830",
+    "考研/高数/多元函数微分学.md",
     "考研/英语/语法/词性概括，动词概述.md",
     "考研/英语/语法/主谓一致.md",
-    "暂时未被创建的链接.md",
-    "英语笔记.md",
-    "词根词缀.md",
-    "测试.md",
-    "2026-06-12.md",
-    "Excalidraw/Drawing 2026-06-14 00.43.32.excalidraw.md",
+    "考研/英语/语法",
+    "考研/LaTeX/LaTeX 符号速查表.md",
+    "考研/LaTeX/LaTeX 数学公式指南.md",
+    "考研/LaTeX",
+    "Ink/Writing/2026.6.15 - 0.12am.writing",
+    "Ink/Writing/2026.6.14 - 1.33am.writing",
+    "Ink/Writing/2026.6.14 - 1.40am.writing",
+    "Ink/Writing",
+    "Ink",
+    "Git 常用命令速查.md",
+    "Git 命令使用指南.md",
     "欢迎.md",
     "Excalidraw/Drawing 2026-06-11 10.56.04.excalidraw.md",
     "Excalidraw/Drawing 2026-06-10 22.00.47.excalidraw.md",
     "Excalidraw/Drawing 2026-06-12 20.29.56.excalidraw.md",
     "Excalidraw/Drawing 2026-06-12 20.25.56.excalidraw.md",
+    "英语笔记.md",
+    "conflict-files-obsidian-git.md",
+    "测试.md.tmp.10593.4fa6a7d0aa0f",
+    "暂时未被创建的链接.md",
+    "词根词缀.md",
+    "测试.md",
     "Excalidraw/Drawing 2026-06-10 21.54.10.excalidraw.md",
     "Drawing 2026-06-10 21.57.59.excalidraw.md",
+    "未命名.md",
     "未命名 1.md",
     "创建链接.md",
     "未命名 2.md",
