@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/clawd-mochi.md",
+                "file": "考研/高数/多元函数微分学.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "clawd-mochi"
+              "title": "多元函数微分学"
             }
           }
         ]
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/clawd-mochi.md",
+                "file": "考研/高数/多元函数微分学.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "clawd-mochi 的大纲"
+              "title": "多元函数微分学 的大纲"
             }
           },
           {
@@ -214,9 +214,9 @@
   },
   "active": "106b49f1c3f34b74",
   "lastOpenFiles": [
+    "Clippings/clawd-mochi.md",
     "2026-06-15.md",
     "Git",
-    "Clippings/clawd-mochi.md",
     "conflict-files-obsidian-git.md",
     "Ink/Writing/2026.6.15 - 0.12am.writing",
     "Clippings/clawd-mochiREADME.md at main.md.tmp.17812.3bddf183e0f7",
