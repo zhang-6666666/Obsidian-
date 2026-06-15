@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "考研/高数/多元函数微分学.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -251,6 +251,7 @@
   },
   "active": "df9837ac75a0afb6",
   "lastOpenFiles": [
+    "考研/高数/多元函数微分学.md.tmp.184592.7ad2047f1f91",
     "考研/高数/多元函数微分学.md.tmp.184592.8d1bf303faf4",
     "考研/高数/多元函数微分学.md.tmp.184592.9678c46bcc5b",
     "Clippings/clawd-mochi.md",
@@ -269,7 +270,6 @@
     "Ink/Writing/2026.6.15 - 0.12am.writing",
     "Ink/Writing/2026.6.14 - 1.33am.writing",
     "Ink/Writing/2026.6.14 - 1.40am.writing",
-    "Ink/Writing",
     "Git 常用命令速查.md",
     "Git 命令使用指南.md",
     "欢迎.md",
