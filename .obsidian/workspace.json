@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "考研/高数/二重积分.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考研/高数/椭圆.md",
+                "file": "考研/高数/二重积分.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "椭圆 的大纲"
+              "title": "二重积分 的大纲"
             }
           },
           {
@@ -192,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
