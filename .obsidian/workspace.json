@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研/高数/多元函数微分学.md",
+                "file": "考研/高数/椭圆.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "多元函数微分学"
-            }
-          },
-          {
-            "id": "edd8e563b437d5a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "椭圆"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "考研/高数/椭圆.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "conflict-files-obsidian-git 的大纲"
+              "title": "椭圆 的大纲"
             }
           },
           {
@@ -227,10 +212,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "edd8e563b437d5a3",
+  "active": "106b49f1c3f34b74",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "考研/高数/多元函数微分学.md",
+    "conflict-files-obsidian-git.md",
     "考研/高数/椭圆.md",
     "Clippings/clawd-mochi.md",
     "2026-06-15.md",
