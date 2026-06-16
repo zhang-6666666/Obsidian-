@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考研/高数/多元函数微分学.md",
-                "mode": "source",
+                "file": "Clippings/clawd-mochi.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "多元函数微分学"
+              "title": "clawd-mochi"
             }
           }
         ],
@@ -214,8 +214,8 @@
   },
   "active": "7693165b0750bb9a",
   "lastOpenFiles": [
-    "考研/高数/二重积分.md",
     "考研/高数/多元函数微分学.md",
+    "考研/高数/二重积分.md",
     "考研/高数/椭圆.md",
     "考研/LaTeX/LaTeX 符号速查表.md",
     "考研/LaTeX/LaTeX 数学公式指南.md",
