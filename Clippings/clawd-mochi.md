@@ -130,7 +130,7 @@ Clawd Mochi 放在你的桌面上，在一块小彩屏上显示动态表情。�
 
 你应该能看到网页控制器：
 
-[![网页界面](https://github.com/yousifamanuel/clawd-mochi/raw/main/pics/clawd_mochi_webpage.jpeg)](https://github.com/yousifamanuel/clawd-mochi/blob/main/pics/clawd_mochi_webpage.jpeg)
+[![网页界面|80](https://github.com/yousifamanuel/clawd-mochi/raw/main/pics/clawd_mochi_webpage.jpeg)](https://github.com/yousifamanuel/clawd-mochi/blob/main/pics/clawd_mochi_webpage.jpeg)
 
 ### 控制器功能
 
