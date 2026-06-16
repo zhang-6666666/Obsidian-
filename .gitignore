@@ -1,6 +1,8 @@
-# === Obsidian 工作区（每台电脑布局不同） ===
+# === Obsidian 自动生成（每台电脑不同，冲突源） ===
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/sync-stats.json
 
 # === 缓存文件（本地生成，无需同步） ===
 .obsidian/.obsidian-git-log
