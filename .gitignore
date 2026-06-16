@@ -16,3 +16,4 @@ desktop.ini
 
 # === Obsidian Git 冲突临时文件 ===
 *.md.tmp.*
+conflict-files-obsidian-git.md
