@@ -371,7 +371,7 @@ $$f(x) = f(0) + f'(0)x + \frac{f''(0)}{2!} x^2 + \cdots + \frac{f^{(n)}(0)}{n!} 
 ```latex
 $$dz = \frac{\partial z}{\partial x} dx + \frac{\partial z}{\partial y} dy$$
 ```
-$$dz = \frac{\partial z}{\partial x} dx + \frac{\partial z}{\partial y} dy$$
+   $$dz = \frac{\partial z}{\partial x} dx + \frac{\partial z}{\partial y} dy$$
 ---
 
 ## 速查入口
