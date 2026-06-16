@@ -18478,7 +18478,7 @@ var TikzjaxPlugin = class extends import_obsidian2.Plugin {
     const s = document.createElement("script");
     s.id = "tikzjax";
     s.type = "text/javascript";
-    s.textContent = tikzjax_default;
+    s.innerText = tikzjax_default;
     doc.body.appendChild(s);
     doc.addEventListener("tikzjax-load-finished", this.postProcessSvg);
   }
