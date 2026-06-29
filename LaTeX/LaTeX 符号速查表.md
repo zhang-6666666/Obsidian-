@@ -8,7 +8,7 @@ created: 2026-06-14
 
 # LaTeX 符号速查表
 
-> 教学指南：[[考研/LaTeX/LaTeX 数学公式指南|LaTeX 数学公式指南]]
+> 教学指南：[[LaTeX 数学公式指南|LaTeX 数学公式指南]]
 
 ---
 
@@ -66,19 +66,19 @@ created: 2026-06-14
 
 ## 运算符
 
-| 命令 | 效果 | 命令 | 效果 |
-|------|:---:|------|:---:|
-| `+` `-` | $+$ $-$ | `\times` | $\times$ |
-| `\cdot` | $\cdot$ | `\div` | $\div$ |
-| `\pm` | $\pm$ | `\mp` | $\mp$ |
-| `\ast` | $\ast$ | `\star` | $\star$ |
-| `\circ` | $\circ$ | `\bullet` | $\bullet$ |
-| `\oplus` | $\oplus$ | `\otimes` | $\otimes$ |
-| `\sum` | $\sum$ | `\prod` | $\prod$ |
-| `\int` | $\int$ | `\iint` | $\iint$ |
-| `\iiint` | $\iiint$ | `\oint` | $\oint$ |
-| `\lim` | $\lim$ | `\partial` | $\partial$ |
-| `\nabla` | $\nabla$ | `\infty` | $\infty$ |
+| 命令       |    效果    | 命令         |     效果     |
+| -------- | :------: | ---------- | :--------: |
+| `+` `-`  | $+$ $-$  | `\times`   |  $\times$  |
+| `\cdot`  | $\cdot$  | `\div`     |   $\div$   |
+| `\pm`    |  $\pm$   | `\mp`      |   $\mp$    |
+| `\ast`   |  $\ast$  | `\star`    |  $\star$   |
+| `\circ`  | $\circ$  | `\bullet`  | $\bullet$  |
+| `\oplus` | $\oplus$ | `\otimes`  | $\otimes$  |
+| `\sum`   |  $\sum$  | `\prod`    |  $\prod$   |
+| `\int`   |  $\int$  | `\iint`    |  $\iint$   |
+| `\iiint` | $\iiint$ | `\oint`    |  $\oint$   |
+| `\lim`   |  $\lim$  | `\partial` | $\partial$ |
+| `\nabla` | $\nabla$ | `\infty`   |  $\infty$  |
 
 ## 关系符号
 

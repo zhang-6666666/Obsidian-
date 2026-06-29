@@ -7,7 +7,7 @@ created: 2026-06-14
 
 # LaTeX 数学公式指南
 
-> **配合阅读**：[[考研/LaTeX/LaTeX 符号速查表|LaTeX 符号速查表]] — 写公式时快速翻查
+> **配合阅读**：[[LaTeX 符号速查表|LaTeX 符号速查表]] — 写公式时快速翻查
 
 ## 引言
 
@@ -376,7 +376,7 @@ $$dz = \frac{\partial z}{\partial x} dx + \frac{\partial z}{\partial y} dy$$
 
 ## 速查入口
 
-写公式时忘了符号，直接打开：[[考研/LaTeX/LaTeX 符号速查表|LaTeX 符号速查表]]
+写公式时忘了符号，直接打开：[[LaTeX 符号速查表|LaTeX 符号速查表]]
 
 ## 实际应用示例
 
