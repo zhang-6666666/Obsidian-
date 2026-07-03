@@ -4,20 +4,20 @@
   "title": "Render TikZ diagrams with Obsidian TikZJax",
   "titleGenerationStatus": "success",
   "createdAt": 1781520053314,
-  "updatedAt": 1782749519466,
-  "lastResponseAt": 1782749519466,
+  "updatedAt": 1783073575363,
+  "lastResponseAt": 1783073575363,
   "sessionId": "59ec63dc-d409-4e90-a6aa-68bc163f56f5",
   "providerState": {
     "providerSessionId": "59ec63dc-d409-4e90-a6aa-68bc163f56f5"
   },
   "usage": {
     "model": "opus[1m]",
-    "inputTokens": 220,
+    "inputTokens": 828,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 54144,
+    "cacheReadInputTokens": 62336,
     "contextWindow": 1000000,
-    "contextTokens": 54364,
-    "percentage": 5,
+    "contextTokens": 63164,
+    "percentage": 6,
     "contextWindowIsAuthoritative": true
   }
 }
