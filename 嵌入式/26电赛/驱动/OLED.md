@@ -46,23 +46,25 @@ oled.c 通过 `extern I2C_HandleTypeDef hi2c1;` 引用 CubeMX 生成的句柄�
 |`CMakeLists.txt`|target_sources + include_dirs|添加 `App/OLED/oled.c` 和 `App/OLED`|
 |`Core/Src/main.c`|Includes + 2 + 3|初始化 + 角度显示|
 
-## API 设计（共 7 个函数）
+## API 设计（共 6 个函数）
 
 ```c
 void oled_init(I2C_HandleTypeDef *hi2c);   // 传入 hi2c1，初始化 SSD1306
 
-void oled_clear(void);                    // 清显存（不刷新屏幕）
-void oled_show(void);                     // 全屏刷新（1024 字节 I2C 写入）
+// 快捷方法：一行搞定，自动 clear + print + show
+void oled_show_string(uint8_t line, const char *str);
+void oled_show_num(uint8_t line, int32_t num, uint8_t digits);
 
+// 分步方法：手动控制排版
+void oled_clear(void);                    // 清显存（不刷新屏幕）
 void oled_set_cursor(uint8_t x, uint8_t y);   // 打印位置（x:0~127, y:行号0~7）
 void oled_print(const char *str);             // 在当前光标打印 ASCII 字符串
-void oled_print_signed(int32_t num);          // 打印有符号整数（自动符号）
-
-void oled_print_angle(int32_t val_x10);      // 角度专用：-18 → "-1.8"
+void oled_show(void);                     // 刷新显存到屏幕
 ```
 
-- `oled_init(hi2c)`：接收外部传入的 I2C 句柄，模块不硬编码 `hi2c1`
-- `oled_print_angle()`：把 ×10 角度值打印为 "-1.8" 格式，对标 jy901p 输出
+- `oled_show_string(2, "Hello")`：清屏→光标设到第 2 行→打印→刷新，一步到位
+- 需要多行时：`oled_clear()` → 多次 `oled_set_cursor()+oled_print()` → 最后一次 `oled_show()`
+- 没有角度专用函数 — OLED 模块只管画字，不关心数据含义
 
 ## 程序结构
 
@@ -84,3 +86,32 @@ oled.c 内部：
 
 - I2C Fast Mode (400kHz)：全屏 1024 字节 ≈ **~25ms**
 - 如果后期只刷新变化区域（如 3 行文本 ~ 300 字节），降至 ~**7ms**
+
+## main.c 改动
+
+```c
+// 初始化（USER CODE 2）
+oled_init(&hi2c1);
+
+// 主循环（USER CODE 3）
+jy901p_poll();
+if (jy901p_angle_ready()) {
+    int32_t r, p, y;
+    jy901p_read_angle(&r, &p, &y);
+
+    // 格式化角度字符串（-18 → "-1.8"），由 main.c 自己负责
+    char buf[16];
+    auto_fmt(buf, r);  // 或直接用 jy901p_angle_str() 拆行显示
+    oled_show_string(1, buf);
+}
+```
+
+> OLED 模块不关心角度格式，由调用方自行 sprintf 后传入字符串。
+
+## 步骤
+
+1. CubeMX 配置 I2C1 Remap（PB8 + PB9）→ 重新生成代码
+2. 创建 `App/OLED/font5x7.h` + `oled.h` + `oled.c`
+3. 修改 `CMakeLists.txt`
+4. 修改 `Core/Src/main.c`
+5. 编译验证 → 烧录 → OLED 显示角度
