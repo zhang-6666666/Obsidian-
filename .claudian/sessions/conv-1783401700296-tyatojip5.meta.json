@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783401700296-tyatojip5",
+  "providerId": "claude",
+  "title": "Add project file list to JY901P note",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783401700296,
+  "updatedAt": 1783401737715,
+  "lastResponseAt": 1783401737715,
+  "sessionId": "c2ab765b-cdfe-446c-942e-1644dfaab7f3",
+  "providerState": {
+    "providerSessionId": "c2ab765b-cdfe-446c-942e-1644dfaab7f3"
+  },
+  "currentNote": "嵌入式/26电赛/驱动/JY901P.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 366,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 38144,
+    "contextWindow": 1000000,
+    "contextTokens": 38510,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -4,20 +4,302 @@
   "title": "Render TikZ diagrams with Obsidian TikZJax",
   "titleGenerationStatus": "success",
   "createdAt": 1781520053314,
-  "updatedAt": 1783401532414,
-  "lastResponseAt": 1783401532414,
+  "updatedAt": 1783401700276,
+  "lastResponseAt": 1783401700273,
   "sessionId": "59ec63dc-d409-4e90-a6aa-68bc163f56f5",
   "providerState": {
-    "providerSessionId": "59ec63dc-d409-4e90-a6aa-68bc163f56f5"
+    "providerSessionId": "59ec63dc-d409-4e90-a6aa-68bc163f56f5",
+    "subagentData": {
+      "call_00_aHSJ07kyvrC4gNvqTeVi8147": {
+        "id": "call_00_aHSJ07kyvrC4gNvqTeVi8147",
+        "description": "Find JY901P project files",
+        "prompt": "Search the vault at D:\\知识库 for any files related to JY901P or the gyroscope project. Look for:\n1. Any source code files (.c, .h, .cpp) related to jy901p, ringbuf, wit_c_sdk\n2. Any project config files (Makefiles, CMakeLists.txt, .ioc files)\n3. Any documentation or notes that reference JY901P\n4. Look in all directories under D:\\知识库\\嵌入式\\\n\nReport all file paths found with their type and a brief one-line description of what each is.",
+        "mode": "async",
+        "isExpanded": false,
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_CuYoBruF8RJI7j4JYFjS0333",
+            "name": "Grep",
+            "input": {
+              "path": "D:\\知识库",
+              "pattern": "JY901P|jy901p|JY901",
+              "output_mode": "files_with_matches"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 4 files\n嵌入式\\26电赛\\驱动\\JY901P.md\n嵌入式\\26电赛\\电赛材料清单.md\n嵌入式\\26电赛\\驱动\\JY901P\\jy901p.h\n嵌入式\\26电赛\\驱动\\JY901P\\jy901p.c"
+          },
+          {
+            "id": "call_01_lz3APnYLDnqtzrfr2l1C6009",
+            "name": "Grep",
+            "input": {
+              "path": "D:\\知识库\\嵌入式",
+              "pattern": "ringbuf|wit_c_sdk|WitStandard",
+              "output_mode": "files_with_matches"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 7 files\n嵌入式\\26电赛\\驱动\\JY901P.md\n嵌入式\\26电赛\\电赛材料清单.md\n嵌入式\\26电赛\\驱动\\JY901P\\jy901p.c\n嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.c\n嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.h\n嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.h\n嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.c"
+          },
+          {
+            "id": "call_02_EEuEwxxUeGOxCCplxSsX2229",
+            "name": "Glob",
+            "input": {
+              "path": "D:\\知识库\\嵌入式",
+              "pattern": "**/*.{c,h,cpp,hpp}"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.c\n嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.h\n嵌入式\\26电赛\\驱动\\WIT\\REG.h\n嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.h\n嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.c\n嵌入式\\26电赛\\驱动\\JY901P\\jy901p.c\n嵌入式\\26电赛\\驱动\\JY901P\\jy901p.h"
+          },
+          {
+            "id": "call_03_h6uciTPDzOz1LsUChk5J5212",
+            "name": "Glob",
+            "input": {
+              "path": "D:\\知识库\\嵌入式",
+              "pattern": "**/{Makefile,CMakeLists.txt,*.ioc,*.mk}"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_04_g2VcJGafySdFnDH5KZaZ9353",
+            "name": "Glob",
+            "input": {
+              "path": "D:\\知识库",
+              "pattern": "**/*.{c,h,cpp,hpp}"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.c\n嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.h\n嵌入式\\26电赛\\驱动\\WIT\\REG.h\n嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.h\n嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.c\n嵌入式\\26电赛\\驱动\\JY901P\\jy901p.c\n嵌入式\\26电赛\\驱动\\JY901P\\jy901p.h"
+          },
+          {
+            "id": "call_05_5nUGLVhQE4Uk0cMVqvO90785",
+            "name": "Glob",
+            "input": {
+              "path": "D:\\知识库\\嵌入式",
+              "pattern": "**/*jy901*"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "嵌入式\\26电赛\\驱动\\JY901P\\jy901p.c\n嵌入式\\26电赛\\驱动\\JY901P\\jy901p.h"
+          },
+          {
+            "id": "call_06_8jFsVyngunEGzlqn2dJE0277",
+            "name": "Glob",
+            "input": {
+              "path": "D:\\知识库\\嵌入式",
+              "pattern": "**/*ringbuf*"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.h\n嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.c"
+          },
+          {
+            "id": "call_07_KT4udyAfHsC7mOGp246j9294",
+            "name": "Glob",
+            "input": {
+              "path": "D:\\知识库\\嵌入式",
+              "pattern": "**/*wit*"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.c\n嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.h"
+          },
+          {
+            "id": "call_00_mD0kjfoL5n1ZrdHDgcxG7552",
+            "name": "Glob",
+            "input": {
+              "path": "D:\\知识库\\嵌入式",
+              "pattern": "**/*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "嵌入式\\Clippings\\clawd-mochi.md\n嵌入式\\K230.md\n嵌入式\\26电赛\\速记.md\n嵌入式\\26电赛\\电赛材料清单.md\n嵌入式\\26电赛\\驱动\\JY901P.md"
+          },
+          {
+            "id": "call_01_kK7uBo8R77W0FMPyncik1370",
+            "name": "Glob",
+            "input": {
+              "path": "D:\\知识库\\嵌入式",
+              "pattern": "**/*.ioc"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_02_GufFs6Rb2k5kVTlyTzDW1191",
+            "name": "Glob",
+            "input": {
+              "path": "D:\\知识库\\嵌入式",
+              "pattern": "**/{Makefile,*make*,*.mk,CMakeLists.txt,*.s,*.ld,*.bin,*.hex}"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_03_n3TKdFhq96AYPHv2GelA4451",
+            "name": "Glob",
+            "input": {
+              "path": "D:\\知识库\\嵌入式",
+              "pattern": "**/*"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "嵌入式\\Clippings\\clawd-mochi.md\n嵌入式\\K230.md\n嵌入式\\26电赛\\ZDT_X42S第二代闭环步进电机用户手册V1.0.5_260527.pdf\n嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.c\n嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.h\n嵌入式\\26电赛\\驱动\\WIT\\REG.h\n嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.h\n嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.c\n嵌入式\\26电赛\\速记.md\n嵌入式\\26电赛\\驱动\\JY901P\\jy901p.c\n嵌入式\\26电赛\\驱动\\JY901P\\jy901p.h\n嵌入式\\26电赛\\电赛材料清单.md\n嵌入式\\26电赛\\驱动\\JY901P.md"
+          },
+          {
+            "id": "call_04_eiBQ4jaI62b2C8q81wIL4205",
+            "name": "Grep",
+            "input": {
+              "output_mode": "files_with_matches",
+              "path": "D:\\知识库",
+              "pattern": "gyroscope|陀螺仪|gyro|姿态传感器",
+              "glob": "*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 3 files\n嵌入式\\26电赛\\驱动\\JY901P.md\n嵌入式\\26电赛\\电赛材料清单.md\n嵌入式\\Clippings\\clawd-mochi.md"
+          },
+          {
+            "id": "call_00_Vg3Xqz8tiA8IwBbdXLnO4874",
+            "name": "Read",
+            "input": {
+              "file_path": "D:\\知识库\\嵌入式\\26电赛\\驱动\\JY901P\\jy901p.h"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t/* JY901P 传感器驱动 — DMA 环形接收 + IDLE 帧检测 + SDK 胶水 */\n2\t#ifndef JY901P_H\n3\t#define JY901P_H\n4\t\n5\t#include \"stm32f1xx_hal.h\"\n6\t#include <stdint.h>\n7\t\n8\t/* 初始化：必须在 MX_USART2_UART_Init 之后调用\n9\t   huart: USART2 句柄\n10\t   hdma_rx: USART2_RX 的 DMA 句柄（CubeMX 生成的 hdma_usart2_rx） */\n11\tvoid jy901p_init(UART_HandleTypeDef *huart, DMA_HandleTypeDef *hdma_rx);\n12\t\n13\t/* USART2 中断处理：在 stm32f1xx_it.c 的 USART2_IRQHandler 末尾调用 */\n14\tvoid jy901p_uart_isr(UART_HandleTypeDef *huart);\n15\t\n16\t/* 主循环轮询：从环形缓冲取字节喂 SDK，检测是否有新角度 */\n17\tvoid jy901p_poll(void);\n18\t\n19\t/* 返回非 0 表示有新角度数据就绪 */\n20\tuint8_t jy901p_angle_ready(void);\n21\t\n22\t/* 取角度并直接返回格式化字符串（×10 整数，避免 printf 浮点）\n23\t   例: \"Roll=-1.8 Pitch=+0.7 Yaw=132.9\" */\n24\tconst char *jy901p_angle_str(void);\n25\t\n26\t/* 读取角度（×10 整数，避免 printf 浮点） */\n27\tvoid jy901p_read_angle(int32_t *roll_10, int32_t *pitch_10, int32_t *yaw_10);\n28\t\n29\t#endif\n30\t"
+          },
+          {
+            "id": "call_01_DUb6qeIg05b7FddDZdI47633",
+            "name": "Read",
+            "input": {
+              "file_path": "D:\\知识库\\嵌入式\\26电赛\\驱动\\JY901P\\jy901p.c",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t/* JY901P 传感器驱动 — DMA 环形接收 + IDLE 帧检测 + 环形缓冲 + SDK 胶水 */\n2\t#include \"jy901p.h\"\n3\t#include \"wit_c_sdk.h\"\n4\t#include \"ringbuf.h\"\n5\t#include <stdio.h>\n6\t\n7\t/* ========================== 内部常量 ========================== */\n8\t#define DMA_RX_BUF_SIZE  64        /* DMA 硬件环形缓冲，必须是 2 的幂 */\n9\t#define RB_BUF_SIZE      128       /* 软件环形缓冲，必须是 2 的幂 */\n10\t\n11\t/* ========================== 静态数据 ========================== */\n12\t\n13\t/* 硬件句柄 */\n14\tstatic UART_HandleTypeDef *j_huart;        /* USART2 */\n15\tstatic DMA_HandleTypeDef  *j_hdma_rx;     /* DMA1_Channel6 */\n16\t\n17\t/* DMA 硬件环形缓冲区（DMA 直接写入） */\n18\tstatic uint8_t  dma_buf[DMA_RX_BUF_SIZE];\n19\tstatic volatile uint32_t dma_last_ndtr;   /* 上一次 DMA NDTR 值，用于计算增量 */\n20\t\n21\t/* 软件环形缓冲（ISR 写入，主循环读取） */\n22\tstatic ringbuf_t rb;\n23\tstatic uint8_t   rb_buf[RB_BUF_SIZE];\n24\t\n25\t/* 角度数据 */\n26\tstatic volatile uint8_t  has_angle;       /* 非 0 = 收到新角度 */\n27\tstatic int32_t angle_r10, angle_p10, angle_y10;  /* 角度 ×10 */\n28\t\n29\t/* =================== SDK 回调（内部函数） =================== */\n30\t"
+          },
+          {
+            "id": "call_02_CEP8tyEK2SzbZ2W3RZcf3406",
+            "name": "Read",
+            "input": {
+              "file_path": "D:\\知识库\\嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.h"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t/* 通用环形缓冲区 — ISR 写 / 主循环读，单生产者单消费者，无锁 */\n2\t#ifndef RINGBUF_H\n3\t#define RINGBUF_H\n4\t\n5\t#include <stdint.h>\n6\t\n7\ttypedef struct {\n8\t    uint8_t *buffer;           /* 数据存储（外部提供静态数组） */\n9\t    uint32_t size;             /* 缓冲区大小，必须是 2 的幂 */\n10\t    volatile uint32_t head;    /* ISR 写入位置，只增不减，取模用 &(size-1) */\n11\t    volatile uint32_t tail;    /* 主循环读取位置 */\n12\t} ringbuf_t;\n13\t\n14\t/* 初始化：传入静态数组和大小，size 自动对齐到 2 的幂 */\n15\tvoid ringbuf_init(ringbuf_t *rb, uint8_t *buf, uint32_t size);\n16\t\n17\t/* ISR 侧：写入数据，返回实际写入字节数（缓冲区满时可能部分写入） */\n18\tuint32_t ringbuf_put(ringbuf_t *rb, const uint8_t *data, uint32_t len);\n19\t\n20\t/* 主循环侧：读取数据，返回实际读取字节数（缓冲区空时返回 0） */\n21\tuint32_t ringbuf_get(ringbuf_t *rb, uint8_t *out, uint32_t len);\n22\t\n23\t/* 可读字节数 */\n24\tuint32_t ringbuf_available(ringbuf_t *rb);\n25\t\n26\t/* 剩余可写空间 */\n27\tuint32_t ringbuf_free(ringbuf_t *rb);\n28\t\n29\t#endif\n30\t"
+          },
+          {
+            "id": "call_03_keQhf8LKqz0eDLGQxcTP3456",
+            "name": "Read",
+            "input": {
+              "file_path": "D:\\知识库\\嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.c",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t/* 通用环形缓冲区实现 */\n2\t#include \"ringbuf.h\"\n3\t\n4\t/* 将 size 向上对齐到最近的 2 的幂，用 &(size-1) 代替 % 取模 */\n5\tstatic uint32_t roundup_pow2(uint32_t n)\n6\t{\n7\t    n--;\n8\t    n |= n >> 1;  n |= n >> 2;  n |= n >> 4;\n9\t    n |= n >> 8;  n |= n >> 16;\n10\t    return n + 1;\n11\t}\n12\t\n13\tvoid ringbuf_init(ringbuf_t *rb, uint8_t *buf, uint32_t size)\n14\t{\n15\t    rb->buffer = buf;\n16\t    rb->size   = roundup_pow2(size);\n17\t    rb->head   = 0;\n18\t    rb->tail   = 0;\n19\t}\n20\t\n21\tuint32_t ringbuf_put(ringbuf_t *rb, const uint8_t *data, uint32_t len)\n22\t{\n23\t    uint32_t mask = rb->size - 1;\n24\t    uint32_t free = rb->size - (rb->head - rb->tail);\n25\t\n26\t    if (len > free) len = free;          /* 空间不够，只写能写下的部分 */\n27\t\n28\t    for (uint32_t i = 0; i < len; i++) {\n29\t        rb->buffer[(rb->head + i) & mask] = data[i];\n30\t    }"
+          },
+          {
+            "id": "call_04_tnIfkOwQK5Pc91kq5o7e3868",
+            "name": "Read",
+            "input": {
+              "file_path": "D:\\知识库\\嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.h",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t#ifndef __WIT_C_SDK_H\n2\t#define __WIT_C_SDK_H\n3\t\n4\t#ifdef __cplusplus\n5\textern \"C\" {\n6\t#endif\n7\t\n8\t#include <stdint.h>\n9\t#include <stdio.h>\n10\t#include <string.h>\n11\t#include \"REG.h\"\n12\t\n13\t\n14\t#define WIT_HAL_OK      (0)     /**< There is no error */\n15\t#define WIT_HAL_BUSY    (-1)    /**< Busy */\n16\t#define WIT_HAL_TIMEOUT (-2)    /**< Timed out */\n17\t#define WIT_HAL_ERROR   (-3)    /**< A generic error happens */\n18\t#define WIT_HAL_NOMEM   (-4)    /**< No memory */\n19\t#define WIT_HAL_EMPTY   (-5)    /**< The resource is empty */\n20\t#define WIT_HAL_INVAL   (-6)    /**< Invalid argument */\n21\t\n22\t#define WIT_DATA_BUFF_SIZE  256\n23\t\n24\t#define WIT_PROTOCOL_NORMAL 0\n25\t#define WIT_PROTOCOL_MODBUS 1\n26\t#define WIT_PROTOCOL_CAN    2\n27\t#define WIT_PROTOCOL_I2C    3\n28\t\n29\t\n30\t/* serial function */"
+          },
+          {
+            "id": "call_05_cAfNqIhr3P4lmgU1yAO08794",
+            "name": "Read",
+            "input": {
+              "file_path": "D:\\知识库\\嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.c",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t#include \"wit_c_sdk.h\"\n2\t\n3\tstatic SerialWrite p_WitSerialWriteFunc = NULL;\n4\tstatic WitI2cWrite p_WitI2cWriteFunc = NULL;\n5\tstatic WitI2cRead p_WitI2cReadFunc = NULL;\n6\tstatic CanWrite p_WitCanWriteFunc = NULL;\n7\tstatic RegUpdateCb p_WitRegUpdateCbFunc = NULL;\n8\tstatic DelaymsCb p_WitDelaymsFunc = NULL;\n9\t\n10\tstatic uint8_t s_ucAddr = 0xff;\n11\tstatic uint8_t s_ucWitDataBuff[WIT_DATA_BUFF_SIZE];\n12\tstatic uint32_t s_uiWitDataCnt = 0, s_uiProtoclo = 0, s_uiReadRegIndex = 0;\n13\tint16_t sReg[REGSIZE];\n14\t\n15\tuint8_t ucRegIndex = 0;\n16\tuint16_t usRegDataBuff[4] = {0};\n17\tuint32_t uiRegDataLen = 0;\n18\t\n19\t#define FuncW 0x06\n20\t#define FuncR 0x03\n21\t\n22\tstatic const uint8_t __auchCRCHi[256] = {\n23\t    0x00, 0xC1, 0x81, 0x40, 0x01, 0xC0, 0x80, 0x41, 0x01, 0xC0, 0x80, 0x41, 0x00, 0xC1, 0x81,\n24\t    0x40, 0x01, 0xC0, 0x80, 0x41, 0x00, 0xC1, 0x81, 0x40, 0x00, 0xC1, 0x81, 0x40, 0x01, 0xC0,\n25\t    0x80, 0x41, 0x01, 0xC0, 0x80, 0x41, 0x00, 0xC1, 0x81, 0x40, 0x00, 0xC1, 0x81, 0x40, 0x01,\n26\t    0xC0, 0x80, 0x41, 0x00, 0xC1, 0x81, 0x40, 0x01, 0xC0, 0x80, 0x41, 0x01, 0xC0, 0x80, 0x41,\n27\t    0x00, 0xC1, 0x81, 0x40, 0x01, 0xC0, 0x80, 0x41, 0x00, 0xC1, 0x81, 0x40, 0x00, 0xC1, 0x81,\n28\t    0x40, 0x01, 0xC0, 0x80, 0x41, 0x00, 0xC1, 0x81, 0x40, 0x01, 0xC0, 0x80, 0x41, 0x01, 0xC0,\n29\t    0x80, 0x41, 0x00, 0xC1, 0x81, 0x40, 0x00, 0xC1, 0x81, 0x40, 0x01, 0xC0, 0x80, 0x41, 0x01,\n30\t    0xC0, 0x80, 0x41, 0x00, 0xC1, 0x81, 0x40, 0x01, 0xC0, 0x80, 0x41, 0x00, 0xC1, 0x81, 0x40,"
+          },
+          {
+            "id": "call_06_Ie8svtiuEcVdottt18gu4559",
+            "name": "Read",
+            "input": {
+              "file_path": "D:\\知识库\\嵌入式\\26电赛\\驱动\\WIT\\REG.h",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t#ifndef __AHRSREG_H\n2\t#define __AHRSREG_H\n3\t\n4\t#ifdef __cplusplus\n5\textern \"C\" {\n6\t#endif\n7\t#define REGSIZE 0x90\n8\t\n9\t#define SAVE \t\t0x00\n10\t#define CALSW \t\t0x01\n11\t#define RSW \t\t0x02\n12\t#define RRATE\t\t0x03\n13\t#define BAUD \t\t0x04\n14\t#define AXOFFSET\t0x05\n15\t#define AYOFFSET\t0x06\n16\t#define AZOFFSET\t0x07\n17\t#define GXOFFSET\t0x08\n18\t#define GYOFFSET\t0x09\n19\t#define GZOFFSET\t0x0a\n20\t#define HXOFFSET\t0x0b\n21\t#define HYOFFSET\t0x0c\n22\t#define HZOFFSET\t0x0d\n23\t#define D0MODE\t\t0x0e\n24\t#define D1MODE\t\t0x0f\n25\t#define D2MODE\t\t0x10\n26\t#define D3MODE\t\t0x11\n27\t#define D0PWMH\t\t0x12\n28\t#define D1PWMH\t\t0x13\n29\t#define D2PWMH\t\t0x14\n30\t#define D3PWMH\t\t0x15"
+          },
+          {
+            "id": "call_07_4joybveO8G9nE0kWAh8a4998",
+            "name": "Read",
+            "input": {
+              "file_path": "D:\\知识库\\嵌入式\\26电赛\\驱动\\JY901P.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t## 维特陀螺仪\n2\t\n3\tPA9   USART1_TX\n4\tPA10 USART1_RX\n5\tPA2  USART2_TX\n6\tPA3  USART2_RX\n7\t\n8\t## 1. 数据流\n9\t```\n10\t\n11\tJY901P 传感器 ──9600bps──→ PA3 (USART2_RX)\n12\t\n13\t                              │\n14\t\n15\t                    DMA1_Channel6 循环模式\n16\t\n17\t                    自动写入 dma_buf[64]  ← CPU 零开销\n18\t\n19\t                              │\n20\t\n21\t                    一帧发完 → RX 空闲 1 字节时间\n22\t\n23\t                    触发 USART IDLE 中断\n24\t\n25\t                              │\n26\t\n27\t                    ┌── jy901p_uart_isr() ──┐\n28\t\n29\t                    │ 计算 DMA 增量            │\n30\t"
+          },
+          {
+            "id": "call_08_1f51TwBSl6gMhM7ffCWW5198",
+            "name": "Read",
+            "input": {
+              "file_path": "D:\\知识库\\嵌入式\\26电赛\\电赛材料清单.md",
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 嵌入式\n4\t  - 电赛\n5\tcreated: 2026-06-30\n6\t---\n7\t\n8\t# 电赛材料清单\n9\t\n10\t---\n11\t\n12\t## 一、硬件物料\n13\t\n14\t### 紧固件\n15\t\n16\t| 类型 | 规格 | 备注 |\n17\t|------|------|------|\n18\t| 螺丝 | M3、M2.5 | |\n19\t| 螺母 | M3、M2.5 | |\n20\t| 尼龙柱 | M3 | |\n21\t\n22\t### 传感器与驱动\n23\t\n24\t| 模块     | 型号 / 方案       | 备注                                                                |\n25\t| ------ | ------------- | ----------------------------------------------------------------- |\n26\t| 陀螺仪    | 维特陀螺仪         | 放弃 MPU6050，性能太差                                                   |\n27\t| 电机驱动   | TB6612        | 最熟悉                                                               |\n28\t| 红外循迹   | 不带 MCU 的循迹模块  | 优先考虑                                                              |\n29\t| 摄像头    | K230（优先）      | OpenMV 性能较差，备选                                                    |\n30\t| 电机     | 轮趣科技          | 具体数据之后整理                                                          |"
+          },
+          {
+            "id": "call_00_6rdJAYcS7hdBhVZZmZaW0250",
+            "name": "Read",
+            "input": {
+              "file_path": "D:\\知识库\\嵌入式\\26电赛\\驱动\\JY901P.md",
+              "limit": 100
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t## 维特陀螺仪\n2\t\n3\tPA9   USART1_TX\n4\tPA10 USART1_RX\n5\tPA2  USART2_TX\n6\tPA3  USART2_RX\n7\t\n8\t## 1. 数据流\n9\t```\n10\t\n11\tJY901P 传感器 ──9600bps──→ PA3 (USART2_RX)\n12\t\n13\t                              │\n14\t\n15\t                    DMA1_Channel6 循环模式\n16\t\n17\t                    自动写入 dma_buf[64]  ← CPU 零开销\n18\t\n19\t                              │\n20\t\n21\t                    一帧发完 → RX 空闲 1 字节时间\n22\t\n23\t                    触发 USART IDLE 中断\n24\t\n25\t                              │\n26\t\n27\t                    ┌── jy901p_uart_isr() ──┐\n28\t\n29\t                    │ 计算 DMA 增量            │\n30\t\n31\t                    │ 逐字节写入 ringbuf       │\n32\t\n33\t                    └─────────────────────────┘\n34\t\n35\t                              │\n36\t\n37\t                    ┌── jy901p_poll() ──────┐\n38\t\n39\t                    │ 从 ringbuf 读字节        │\n40\t\n41\t                    │ 逐字节喂 WitSerialDataIn │\n42\t\n43\t                    │ 状态机拼接 11 字节帧      │\n44\t\n45\t                    │ 校验通过 → sReg[]        │\n46\t\n47\t                    │ 回调中预格式化角度字符串   │\n48\t\n49\t                    └─────────────────────────┘\n50\t\n51\t                              │\n52\t\n53\t                    main 循环 1 行搞定:\n54\t\n55\t                    printf(\"%s\\r\\n\", jy901p_angle_str());\n56\t\n57\t```\n58\t\n59\t  \n60\t\n61\t---\n62\t\n63\t## 2. 角度输出格式\n64\t![[Pasted image 20260706082751.png]]\n65\t\n66\t## 工作流程\n67\t串口中断解析（效率最低，实现最简单）用于测试工程\n68\t```c#\n69\t/* printf 重定向到 USART1，newlib-nano 要求实现 __io_putchar */\n70\tint __io_putchar(int ch)\n71\t{\n72\t    HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, 10);\n73\t    return ch;\n74\t}\n75\t```\n76\t\n77\t`wit_c_sdk.c`协议状态机\n78\t每次直接移植，不需要修改\n79\tstatic uint8_t s_ucWitDataBuff[WIT_DATA_BUFF_SIZE];理解为缓冲区，所有的数据被存储在这里面\n80\t`void WitSerialDataIn(uint8_t ucData);`状态机函数，当接收中断触发时调用,寻找0x55帧头并不断拼接数据包，直到满足11位数据,经过校验和，拼接字符串第八位和高八位成一个完整的两字节,标志位置1，打印数据\n81\t\n82\t\n83\t\n84\t## DMA + 环形缓冲区 + IDLE 中断\n85\t\n86\t### 1. 环形缓冲区`ringbuf.h`(0依赖，可移植到任意的项目中！)\n87\t```c\n88\t\n89\ttypedef struct {\n90\t\n91\t    uint8_t *buffer;           // 静态数组指针\n92\t\n93\t    uint32_t size;             // 自动对齐到 2 的幂\n94\t\n95\t    volatile uint32_t head;    // ISR 写指针\n96\t\n97\t    volatile uint32_t tail;    // 主循环读指针\n98\t\n99\t} ringbuf_t;\n100\t"
+          },
+          {
+            "id": "call_01_VmZjjwogaXDKpPfJrqEQ5130",
+            "name": "Bash",
+            "input": {
+              "command": "wc -l \"D:\\知识库\\嵌入式\\26电赛\\驱动\\JY901P\\jy901p.c\" \"D:\\知识库\\嵌入式\\26电赛\\驱动\\JY901P\\jy901p.h\" \"D:\\知识库\\嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.c\" \"D:\\知识库\\嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.h\" \"D:\\知识库\\嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.c\" \"D:\\知识库\\嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.h\" \"D:\\知识库\\嵌入式\\26电赛\\驱动\\WIT\\REG.h\" \"D:\\知识库\\嵌入式\\26电赛\\驱动\\JY901P.md\" \"D:\\知识库\\嵌入式\\26电赛\\电赛材料清单.md\"",
+              "description": "Count lines in all related files"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "  158 D:\\知识库\\嵌入式\\26电赛\\驱动\\JY901P\\jy901p.c\n   29 D:\\知识库\\嵌入式\\26电赛\\驱动\\JY901P\\jy901p.h\n   57 D:\\知识库\\嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.c\n   29 D:\\知识库\\嵌入式\\26电赛\\驱动\\RINGBUF\\ringbuf.h\n  505 D:\\知识库\\嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.c\n  139 D:\\知识库\\嵌入式\\26电赛\\驱动\\WIT\\wit_c_sdk.h\n  284 D:\\知识库\\嵌入式\\26电赛\\驱动\\WIT\\REG.h\n  190 D:\\知识库\\嵌入式\\26电赛\\驱动\\JY901P.md\n  127 D:\\知识库\\嵌入式\\26电赛\\电赛材料清单.md\n 1518 total"
+          }
+        ],
+        "asyncStatus": "completed",
+        "agentId": "a8bb9bdbf70aaa8e3",
+        "startedAt": 1783401627538,
+        "result": "Let me also check the full JY901P.md for additional context and do a quick line count on the source files.",
+        "completedAt": 1783401674549
+      }
+    }
   },
   "usage": {
     "model": "opus[1m]",
-    "inputTokens": 28,
+    "inputTokens": 3471,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 64896,
+    "cacheReadInputTokens": 64512,
     "contextWindow": 1000000,
-    "contextTokens": 64924,
-    "percentage": 6,
-    "contextWindowIsAuthoritative": true
+    "contextTokens": 67983,
+    "percentage": 7
   }
 }
