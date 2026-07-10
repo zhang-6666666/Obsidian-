@@ -6,3 +6,5 @@
 是一个用Python编写的Web应用框架，快速搭建网站或Web API
 
 
+CSI（摄像头串行接口):基于MIPI协议
+ISP（图像信号处理器）
