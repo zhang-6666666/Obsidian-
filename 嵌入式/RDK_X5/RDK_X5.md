@@ -16,4 +16,21 @@ canny边缘检测
 阈值算法(二值化)
 形态学算法(腐蚀膨胀)
 
-HTML
+HTML:超文本标记语言
+```html
+<!DOCTYPE html>          <!-- 声明这是 HTML5 文档 -->
+<html>                   <!-- HTML 开始 -->
+<head>                   <!-- 头信息（配置、样式） -->
+    <meta charset="utf-8">   <!-- 编码方式 -->
+    <title>摄像头画面</title>  <!-- 浏览器标题 -->
+    <style>              <!-- CSS 样式（控制外观） -->
+        body { background: #111; }   <!-- 背景黑色 -->
+        h1 { color: #ccc; }          <!-- 标题灰色 -->
+    </style>
+</head>
+<body>                   <!-- 页面内容（用户看到的东西） -->
+    <h1>摄像头实时画面</h1>   <!-- 标题 -->
+    <img src="/video">        <!-- 图片/视频 -->
+</body>
+</html>                  <!-- HTML 结束 -->
+```
