@@ -1,6 +1,6 @@
 # SSD1306 OLED 显示 
 
-存在问题：全屏刷新需要消耗非常多的时间，I2C高速模式处理也要50ms，大幅影响pid计算
+*存在问题：全屏刷新需要消耗非常多的时间，I2C高速模式处理也要50ms，大幅影响pid计算*
 解决方法：
 1. 换spi屏幕
 2. 使用SPI接线
@@ -11,16 +11,16 @@
 
 ## 硬件接线
 
-|STM32|OLED|说明|
-|---|---|---|
-|PB8|SCL|I2C1 SCL（AF_OD，需接 4.7k 上拉到 3.3V）|
-|PB9|SDA|I2C1 SDA（AF_OD，需接 4.7k 上拉到 3.3V）|
-|3.3V|VCC||
-|GND|GND||
+| STM32 | OLED | 说明                               |
+| ----- | ---- | -------------------------------- |
+| PB8   | SCL  | I2C1 SCL（AF_OD，需接 4.7k 上拉到 3.3V） |
+| PB9   | SDA  | I2C1 SDA（AF_OD，需接 4.7k 上拉到 3.3V） |
+| 3.3V  | VCC  |                                  |
+| GND   | GND  |                                  |
 
 ## CubeMX 配置
 
-1. 打开 `JY901P.ioc`
+1. 打开 CubeMX
 2. **Pinout → PB8**：设为 **I2C1_SCL**
 3. **Pinout → PB9**：设为 **I2C1_SDA**
 4. 左侧 **Connectivity → I2C1**：Mode 选 **I2C**，Speed 选 **Fast Mode**（400kHz）
@@ -28,11 +28,10 @@
 6. **GPIO Settings** 确认 PB8/PB9 模式为 Alternate Function Open Drain
 7. 点击 **GENERATE CODE**
 
-> CubeMX 会自动修改 `gpio.c`、`stm32f1xx_hal_msp.c` 中的 I2C1 初始化和 GPIO 配置，不影响 USART1/2、TIM1、DMA 的已有配置。
-
-## 移植注意事项
+## 注意事项
 
 oled.c 通过 `extern I2C_HandleTypeDef hi2c1;` 引用 CubeMX 生成的句柄，模块本身**不依赖任何硬件细节**。换芯片时只需改 CubeMX 配置 + 确保 `hi2c1` 声明可访问。
+
 
 ## 文件清单
 
