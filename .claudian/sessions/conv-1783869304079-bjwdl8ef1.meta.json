@@ -4,19 +4,19 @@
   "title": "Recommend learning workflow for beginners",
   "titleGenerationStatus": "success",
   "createdAt": 1783869304079,
-  "updatedAt": 1783869562670,
-  "lastResponseAt": 1783869562670,
+  "updatedAt": 1783870912960,
+  "lastResponseAt": 1783870912960,
   "sessionId": "82f0ccb4-9bf9-40a3-b7af-3e958e84e705",
   "providerState": {
     "providerSessionId": "82f0ccb4-9bf9-40a3-b7af-3e958e84e705"
   },
   "usage": {
-    "model": "opus[1m]",
-    "inputTokens": 159,
+    "model": "haiku",
+    "inputTokens": 57,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 34432,
-    "contextWindow": 1000000,
-    "contextTokens": 34591,
-    "percentage": 3
+    "cacheReadInputTokens": 45824,
+    "contextWindow": 200000,
+    "contextTokens": 45881,
+    "percentage": 23
   }
 }

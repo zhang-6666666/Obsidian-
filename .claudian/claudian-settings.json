@@ -1,9 +1,9 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "opus[1m]",
+  "model": "haiku",
   "thinkingBudget": "off",
-  "effortLevel": "medium",
+  "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
@@ -33,7 +33,7 @@
       "enableOpus1M": true,
       "enableSonnet1M": true,
       "customModels": "",
-      "lastModel": "opus[1m]",
+      "lastModel": "haiku",
       "environmentVariables": "",
       "environmentHash": ""
     },
@@ -79,10 +79,10 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "opus[1m]"
+    "claude": "haiku"
   },
   "savedProviderEffort": {
-    "claude": "medium"
+    "claude": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {},
