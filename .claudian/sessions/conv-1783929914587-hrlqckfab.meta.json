@@ -1,0 +1,14 @@
+{
+  "id": "conv-1783929914587-hrlqckfab",
+  "providerId": "claude",
+  "title": "我想在笔记内画思维倒吐，怎么实现",
+  "titleGenerationStatus": "pending",
+  "createdAt": 1783929914587,
+  "updatedAt": 1783929953399,
+  "lastResponseAt": 1783929953399,
+  "sessionId": "9759ff36-611d-4375-9079-f3b4d38c1685",
+  "providerState": {
+    "providerSessionId": "9759ff36-611d-4375-9079-f3b4d38c1685"
+  },
+  "currentNote": "嵌入式/ROS2/运动学.md"
+}

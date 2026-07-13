@@ -1,11 +1,11 @@
 {
   "id": "conv-1783401700296-tyatojip5",
   "providerId": "claude",
-  "title": "Guide create learning workflow in Obsidian",
-  "titleGenerationStatus": "success",
+  "title": "我想在笔记内画思维倒吐，怎么实现",
+  "titleGenerationStatus": "pending",
   "createdAt": 1783401700296,
-  "updatedAt": 1783869284123,
-  "lastResponseAt": 1783869282569,
+  "updatedAt": 1783929972628,
+  "lastResponseAt": 1783929956582,
   "sessionId": "c2ab765b-cdfe-446c-942e-1644dfaab7f3",
   "providerState": {
     "providerSessionId": "c2ab765b-cdfe-446c-942e-1644dfaab7f3"

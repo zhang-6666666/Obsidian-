@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"68b54504f80eaa6d","x":-540,"y":-343,"width":400,"height":400,"type":"file","file":"嵌入式/ROS2/运动学.md"},
+		{"id":"2596c05e4e3d1b66","x":-160,"y":-173,"width":250,"height":60,"type":"text","text":"d"},
+		{"id":"88f4e83cb6b2d110","x":60,"y":-60,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[]
+}

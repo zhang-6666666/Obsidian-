@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783929970442-c19zbqn24",
+  "providerId": "claude",
+  "title": "Draw mind maps in notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783929970443,
+  "updatedAt": 1783929992511,
+  "lastResponseAt": 1783929992511,
+  "sessionId": "d22d924b-fc1a-424c-bcb6-2b7a68806065",
+  "providerState": {
+    "providerSessionId": "d22d924b-fc1a-424c-bcb6-2b7a68806065"
+  },
+  "currentNote": "嵌入式/ROS2/运动学.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 215,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 23552,
+    "contextWindow": 200000,
+    "contextTokens": 23767,
+    "percentage": 12,
+    "contextWindowIsAuthoritative": true
+  }
+}
