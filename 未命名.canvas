@@ -1,8 +1,16 @@
 {
 	"nodes":[
-		{"id":"68b54504f80eaa6d","x":-540,"y":-343,"width":400,"height":400,"type":"file","file":"嵌入式/ROS2/运动学.md"},
-		{"id":"2596c05e4e3d1b66","x":-160,"y":-173,"width":250,"height":60,"type":"text","text":"d"},
-		{"id":"88f4e83cb6b2d110","x":60,"y":-60,"width":250,"height":60,"type":"text","text":""}
+		{"id":"eda4954dbfa75079","x":100,"y":-340,"width":1010,"height":237,"type":"group","label":"运动学正解"},
+		{"id":"2596c05e4e3d1b66","x":120,"y":-320,"width":250,"height":50,"type":"text","text":"左轮当前速度"},
+		{"id":"314656d4dae093f0","x":500,"y":-243,"width":250,"height":60,"type":"text","text":"运动学正解"},
+		{"id":"88f4e83cb6b2d110","x":120,"y":-183,"width":250,"height":60,"type":"text","text":"右轮当前速度"},
+		{"id":"c1e6ddf3a0fa1662","x":840,"y":-320,"width":250,"height":60,"type":"text","text":"机器人线速度"},
+		{"id":"264ff907f68accd9","x":840,"y":-183,"width":250,"height":60,"type":"text","text":"机器人角速度"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"3c306e4893e49d60","fromNode":"2596c05e4e3d1b66","fromSide":"right","toNode":"314656d4dae093f0","toSide":"left"},
+		{"id":"71f316e2a0d8b1c2","fromNode":"88f4e83cb6b2d110","fromSide":"right","toNode":"314656d4dae093f0","toSide":"left"},
+		{"id":"6cd6ef276db44cde","fromNode":"314656d4dae093f0","fromSide":"right","toNode":"264ff907f68accd9","toSide":"left"},
+		{"id":"d2df90b07cf6c34f","fromNode":"314656d4dae093f0","fromSide":"right","toNode":"c1e6ddf3a0fa1662","toSide":"left"}
+	]
 }
