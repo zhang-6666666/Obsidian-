@@ -20,3 +20,8 @@ PC端运行`ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888`
 Linux使用`ip addr`查看当前ip地址
 
 # DDS
+ROS的底层通信机制
+#  内存分配器（allocator）
+```cpp
+rcl_allocator_t allocator;
+```
