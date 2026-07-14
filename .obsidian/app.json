@@ -1,5 +1,7 @@
 {
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "./附件"
+  "attachmentFolderPath": "./附件",
+  "vimMode": false,
+  "showUnsupportedFiles": true
 }
