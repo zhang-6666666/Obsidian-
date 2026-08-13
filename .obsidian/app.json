@@ -3,5 +3,6 @@
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./附件",
   "vimMode": false,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "newFileLocation": "current"
 }

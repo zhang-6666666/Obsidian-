@@ -1,0 +1,23 @@
+{
+  "id": "conv-1785206125292-6ahy10hq0",
+  "providerId": "claude",
+  "title": "Find plugin to translate plugin English",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785206125293,
+  "updatedAt": 1785206311692,
+  "lastResponseAt": 1785206134716,
+  "sessionId": "8c0d6f5e-efb4-405a-ac1b-1c07a925072a",
+  "providerState": {
+    "providerSessionId": "8c0d6f5e-efb4-405a-ac1b-1c07a925072a"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 23773,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 23773,
+    "percentage": 12,
+    "contextWindowIsAuthoritative": true
+  }
+}
