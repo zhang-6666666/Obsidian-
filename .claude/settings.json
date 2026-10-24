@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo \"=== 各目录文件数量 ===\" && for d in 毕业设计 计算机视觉 嵌入式 考研 Clippings Git LaTeX; do echo \"$d: $\\(find \"$d\" -type f 2>/dev/null | wc -l\\) 文件\"; done\necho \"\"\necho \"=== 顶层散落文件 ===\" && find . -maxdepth 1 -type f -name \"*.md\" | sort\necho \"\"\necho \"=== 考研子结构 ===\" && find 考研 -maxdepth 3 -type d | sort\necho \"\"\necho \"=== 嵌入式子结构 ===\" && find 嵌入式 -maxdepth 3 -type d | sort\necho \"\"\necho \"=== 是否已装插件 ===\" && ls .obsidian/plugins 2>/dev/null || echo \"无插件\")"
+    ]
+  }
+}

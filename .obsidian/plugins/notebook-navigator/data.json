@@ -17,6 +17,10 @@
         {
           "type": "folder",
           "path": "嵌入式"
+        },
+        {
+          "type": "note",
+          "path": "嵌入式/ROS2/机器人开发.md"
         }
       ],
       "navRainbow": {
@@ -500,11 +504,21 @@
     ]
   },
   "customVaultName": "",
-  "pinnedNotes": {},
+  "pinnedNotes": {
+    "嵌入式/ROS2/机器人开发.md": {
+      "folder": true,
+      "tag": false,
+      "property": false
+    }
+  },
   "collapsedPinnedContexts": {},
   "fileIcons": {},
-  "fileColors": {},
-  "fileBackgroundColors": {},
+  "fileColors": {
+    "嵌入式/ROS2/机器人开发.md": "#ffffff"
+  },
+  "fileBackgroundColors": {
+    "嵌入式/ROS2/机器人开发.md": "#252e3b"
+  },
   "folderIcons": {},
   "folderColors": {},
   "folderBackgroundColors": {},

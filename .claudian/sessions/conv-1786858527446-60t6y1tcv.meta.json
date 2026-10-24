@@ -1,0 +1,23 @@
+{
+  "id": "conv-1786858527446-60t6y1tcv",
+  "providerId": "claude",
+  "title": "Suggest Obsidian workflow ideas",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786858527446,
+  "updatedAt": 1786858630048,
+  "lastResponseAt": 1786858630048,
+  "sessionId": "4cebed27-8e9a-4713-92b3-dd1232fc77f4",
+  "providerState": {
+    "providerSessionId": "4cebed27-8e9a-4713-92b3-dd1232fc77f4"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 405,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 32768,
+    "contextWindow": 200000,
+    "contextTokens": 33173,
+    "percentage": 17,
+    "contextWindowIsAuthoritative": true
+  }
+}
