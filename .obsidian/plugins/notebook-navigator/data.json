@@ -13,16 +13,7 @@
       "hiddenFileProperties": [],
       "navigationBanner": null,
       "periodicNotesFolder": "",
-      "shortcuts": [
-        {
-          "type": "folder",
-          "path": "嵌入式"
-        },
-        {
-          "type": "note",
-          "path": "嵌入式/ROS2/机器人开发.md"
-        }
-      ],
+      "shortcuts": [],
       "navRainbow": {
         "mode": "none",
         "balanceHueLuminance": true,
@@ -97,6 +88,7 @@
     "calendarPlacement": "synced",
     "calendarLeftPlacement": "synced",
     "calendarWeeksToShow": "synced",
+    "defaultListMode": "synced",
     "compactItemHeight": "synced",
     "compactItemHeightScaleText": "synced",
     "featureImageSize": "synced",
@@ -128,6 +120,7 @@
   "narrowSidebarCustomWidth": 350,
   "showTooltips": false,
   "showTooltipPath": true,
+  "showTooltipTags": false,
   "showTooltipWordCount": false,
   "desktopBackground": "separate",
   "desktopScale": 1,
@@ -147,6 +140,7 @@
       "search": true,
       "reveal": false,
       "descendants": true,
+      "groupExpansion": false,
       "sort": true,
       "appearance": true,
       "newNote": true
@@ -157,11 +151,17 @@
   "dateFormat": "MMM D, YYYY",
   "timeFormat": "h:mm a",
   "calendarTemplateFolder": "",
+  "templateEngine": "automatic",
+  "folderTemplates": {},
+  "showFolderTemplateIcons": true,
+  "templateCommands": [],
   "confirmBeforeDelete": true,
   "deleteAttachments": "ask",
   "moveFileConflicts": "ask",
   "externalIconProviders": {},
+  "showReleaseNotes": true,
   "checkForUpdatesOnStart": true,
+  "showMarkdownPointBannerAtTop": true,
   "pinNavigationBanner": true,
   "showNoteCount": true,
   "separateNoteCounts": true,
@@ -194,8 +194,7 @@
   "folderSortOrder": "alpha-asc",
   "enableFolderNotes": false,
   "folderNoteType": "markdown",
-  "folderNoteName": "",
-  "folderNoteNamePattern": "",
+  "folderNoteNamePattern": "{{folder}}",
   "folderNoteTemplate": null,
   "enableFolderNoteLinks": true,
   "hideFolderNoteInList": true,
@@ -219,7 +218,9 @@
   "defaultListMode": "standard",
   "includeDescendantNotes": false,
   "defaultFolderSort": "modified-desc",
+  "defaultFolderSortPropertyKey": "",
   "propertySortKey": "",
+  "propertyGroupKey": "",
   "propertySortSecondary": "title",
   "manualSortPropertyKey": "sort_index",
   "manualSortGroupHeaderProperty": "group_header",
@@ -227,6 +228,7 @@
   "confirmBeforeManualSort": true,
   "revealFileOnListChanges": true,
   "listPaneTitle": "header",
+  "colorListPaneTitle": false,
   "noteGrouping": "date",
   "showSelectedNavigationPills": false,
   "stickyGroupHeaders": true,
@@ -251,10 +253,15 @@
   "frontmatterCreatedField": "",
   "frontmatterModifiedField": "",
   "frontmatterDateFormat": "",
-  "showFileIconUnfinishedTask": false,
+  "showFileTaskProgress": true,
+  "showFileTaskProgressBar": true,
+  "showFileTaskProgressCount": true,
+  "hideFileTaskProgressWhenComplete": false,
   "showFileBackgroundUnfinishedTask": false,
   "unfinishedTaskBackgroundColor": "#ef000050",
+  "unfinishedTaskBackgroundColorDark": "#ef000050",
   "showFileIcons": true,
+  "unfinishedTaskIcon": "none",
   "useFolderIconForFiles": false,
   "showFilenameMatchIcons": false,
   "fileNameIconMap": {},
@@ -266,6 +273,7 @@
   "showFilePreview": true,
   "skipHeadingsInPreview": true,
   "skipCodeBlocksInPreview": true,
+  "skipCalloutsInPreview": false,
   "stripHtmlInPreview": true,
   "stripLatexInPreview": true,
   "previewRows": 2,
@@ -305,6 +313,7 @@
   "calendarEnabled": true,
   "calendarPlacement": "left-sidebar",
   "calendarConfirmBeforeCreate": true,
+  "calendarShowHiddenItems": false,
   "calendarLocale": "system-default",
   "calendarWeekendDays": "sat-sun",
   "calendarMonthHeadingFormat": "full",
@@ -314,6 +323,7 @@
   "calendarMonthHighlights": {},
   "calendarShowWeekNumber": false,
   "calendarShowQuarter": false,
+  "calendarShowOutsideMonthDays": true,
   "calendarShowYearCalendar": true,
   "calendarLeftPlacement": "navigation",
   "calendarWeeksToShow": 1,
@@ -511,7 +521,6 @@
       "property": false
     }
   },
-  "collapsedPinnedContexts": {},
   "fileIcons": {},
   "fileColors": {
     "嵌入式/ROS2/机器人开发.md": "#ffffff"
@@ -524,6 +533,7 @@
   "folderBackgroundColors": {},
   "folderSortOverrides": {},
   "folderTreeSortOverrides": {},
+  "folderChildOrder": {},
   "folderAppearances": {
     "嵌入式/26电赛": {
       "previewRows": 1
@@ -534,12 +544,14 @@
   "tagBackgroundColors": {},
   "tagSortOverrides": {},
   "tagTreeSortOverrides": {},
+  "tagChildOrder": {},
   "tagAppearances": {},
   "propertyIcons": {},
   "propertyColors": {},
   "propertyBackgroundColors": {},
   "propertySortOverrides": {},
   "propertyTreeSortOverrides": {},
+  "propertyChildOrder": {},
   "propertyAppearances": {},
   "virtualFolderColors": {},
   "virtualFolderBackgroundColors": {},
@@ -566,8 +578,7 @@
     "#404040",
     "#404040"
   ],
-  "lastShownVersion": "3.2.4",
-  "rootFolderOrder": [],
+  "lastShownVersion": "3.5.0",
   "rootTagOrder": [],
   "rootPropertyOrder": []
 }
